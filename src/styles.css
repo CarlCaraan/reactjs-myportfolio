@@ -1,4 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lato&family=Poppins&family=Raleway&family=Roboto&display=swap");
+:root {
+  --primary-app-color: #0099ff;
+  --secondary-app-color: #001528;
+  --purple-color: #8e44ad;
+  --standout-color: #e67e22;
+}
 .App {
-  font-family: sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ========= HERO SECTION ========= */
+
+.herosection {
+  background: linear-gradient(
+    -9,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+}
+.main-caption {
+  font-family: "Courgette";
+  text-shadow: 1px 1px 1px;
+  color: #2c3e50;
+  opacity: 0.5;
+}
+.nav-items {
+  cursor: pointer;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+}
+.brand-name {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-size: 2rem;
+}
+.px-10 {
+  padding-inline: 90px;
+}
+.herosection-2 {
+  padding-top: 60px;
+}
+.Im-text-section {
+  padding-top: 52px;
   text-align: center;
 }
+.Im-text {
+  font-family: "Lato", sans-serif;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.name-Im-text {
+  color: var(--standout-color);
+  font-size: 28px;
+}
+.Im-text-enthusiastic {
+  color: var(--primary-app-color);
+  font-weight: 700;
+}
+.Im-text-subheading {
+  font-family: "Lato", sans-serif;
+  color: #000;
+  font-size: 1.4rem;
+}
+.btn-hire-me {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: #8e44ad;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-hire-me:hover {
+  background: #aa53cf;
+}
+.btn-resume-me {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: #7f8c8d;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out forwards;
+}
+.btn-resume-me:hover {
+  background: #95a5a6;
+}
+@keyframes Anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.075);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.custom-avatar {
+  border-radius: 50%;
+}
+
+/* ========= ABOUT SECTION ========= */
+
+.about-me-section {
+  background: var(--primary-app-color);
+}
+.section-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.section-subheading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: #8e44ad;
+}
+.about-content-wrapper {
+  background: #fff;
+  margin-inline: auto;
+  border-radius: 2px;
+}
+.some-text-about-me {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+}
+.few-highlights {
+  font-family: "Roboto", sans-serif;
+  padding-block: 12px;
+}
+.few-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.few-list {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* ========= RESUME SECTION ========= */
+
+.resume-outer-section {
+  padding-top: 5rem;
+}
+.resume-options-items {
+  font-family: "Raleway",sans-serif;
+  font-size: 1.2rem;
+  width: 1%;
+  transition: all 0.3s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.resume-options-items:hover {
+  width: 100%;
+  background:var(--purple-color);
+  color: #fff;
+}
+.icons-span{
+  margin-block: 26.5px;
+  margin-inline: 24px;
+}
+.selected{
+  width: 100%;
+  background:var(--purple-color);
+  color: #fff;
+}
+.bg-new {
+  background: #f1f1f1;
+}
+.resume-outer-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.resume-right-section {
+  padding-block: 2rem;
+}
+

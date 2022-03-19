@@ -1,0 +1,14 @@
+.progress-some{
+    background: #d1d1d1;
+    height: 25px;
+    width: 200px;
+}
+.progress-new{
+    background: #8e44ad;
+    height: 25px;
+}
+.language{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}

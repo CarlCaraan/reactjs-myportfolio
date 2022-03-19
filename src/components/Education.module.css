@@ -1,0 +1,17 @@
+.university-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.university-degree {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.year-passedout {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  height: 20px;
+  margin-top: 10px;
+}

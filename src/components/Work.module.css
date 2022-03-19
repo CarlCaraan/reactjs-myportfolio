@@ -1,0 +1,24 @@
+.work-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.work-role {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.work-list {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.year-passedout {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  height: 20px;
+  margin-top: 10px;
+}
+
