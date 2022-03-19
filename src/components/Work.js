@@ -12,7 +12,7 @@ export default function Work() {
           >
             <div className={`${classes["new-one"]} d-flex flex-column`}>
               <span className={`${classes["work-name"]}`}>
-                Freelance
+                Freelancer
               </span>
               <span className={`${classes["work-role"]}`}>
                 Web Developer | Full Stack Developer
