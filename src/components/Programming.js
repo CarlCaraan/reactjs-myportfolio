@@ -30,6 +30,7 @@ export default function Programming() {
       <div className="container-fluid">
         <div className="row">
           <h4 className={`${classes['resume-title']}`}>Technical Skills</h4>
+          <p>A presentation of my use in each skill.</p>
           {value.map((value, index) => {
             return (
               <Fragment>
