@@ -13,6 +13,7 @@ export default function App() {
   const [workhistory, setWorkHistory] = useState(false);
   const [programming, setProgramming] = useState(false);
   const [projects, setProjects] = useState(false);
+  const [opennav, setOpenNav] = useState(false);
 
   function SetAllFalse() {
     setEducation(false);
@@ -28,11 +29,16 @@ export default function App() {
 
   return (
     <div className="App">
-
       {/* ========= Start Navigation Section ========= */}
-      <nav className="d-flex flex-row justify-content-between">
+      <nav
+        className={
+          !opennav
+            ? "d-flex bg-new navbar-new flex-rows px-9 py-5 transition-all"
+            : "d-flex bg-new navbar-fixed-new flex-rows px-9 py-5 transition-all"
+        }
+      >
         <span className="brand-name"> Dev_Caraan</span>
-        <div className="d-flex flex-row">
+        <div className="d-flex flex-rows">
           <span className="mx-4 nav-items">Home </span>
           <span className="mx-4 nav-items">About me</span>
           <span className="mx-4 nav-items">Resume </span>
@@ -43,9 +49,10 @@ export default function App() {
       {/* ========= End Navigation Section ========= */}
 
       {/* ========= Start Hero Section ========= */}
-      <section className="herosection px-10 py-5">
+      <section className="herosection px-10 py-2">
+          <div className="bars" onClick={() => setOpenNav(!opennav)}></div>
         <div className="herosection-2 row justify-content-center">
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <span className="Im-text">
                 Hello, I'm
@@ -64,7 +71,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-sm-12">
             <div className="d-flex justify-content-center custom-div-outer-img text-center pt-5">
               <img
                 className="img-fluid custom-avatar shadow-sm img-thumbnail"
@@ -74,7 +81,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-sm-12">
             <div className="d-flex justify-content-center custom-div-outer-img text-center">
               <lottie-player
                 src="https://assets4.lottiefiles.com/datafiles/fab7172a9302d416bcdb8ac7e1c71123/data.json"
