@@ -76,7 +76,6 @@ export default function App() {
                 background="transparent"
                 speed="1"
                 style={{ width: "300px", height: "300px" }}
-                loop
                 autoplay
               ></lottie-player>
             </div>
@@ -140,7 +139,7 @@ export default function App() {
       {/* ========= End About Section ========= */}
 
       {/* ========= Start Resume Section ========= */}
-      <div className="resume-outer-section d-flex flex-column">
+      <section className="resume-outer-section d-flex flex-column">
         <span className="section-heading">Resume</span>
         <span className="section-subheading">My formal Bio Details</span>
 
@@ -223,8 +222,23 @@ export default function App() {
             {projects === true && <Projects />}
           </div>
         </div>
-      </div>
+      </section>
       {/* ========= End Resume Section ========= */}
+
+      {/* ========= Start Testimonial Section ========= */}
+      <section className="d-flex flex-column">
+        <span className="section-heading">Testimonials</span>
+        <span className="section-subheading">What My Clients Say About Me</span>
+
+        {/* Start Background Image */}
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+        {/* End Background Image */}
+
+      </section>
+
+      {/* ========= End Testimonial Section ========= */}
     </div>
   );
 }

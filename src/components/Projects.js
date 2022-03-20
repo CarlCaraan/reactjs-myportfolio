@@ -11,7 +11,7 @@ export default function Projects() {
         src: "../../assets/images/projects/project1.png",
         name: "Twitbook - Social Media App",
         tag1: "Javascript",
-        tag2: "Core Php",
+        tag2: "Php",
         tag3: "Bootstrap",
       },
       {
@@ -19,14 +19,14 @@ export default function Projects() {
         src: "../../assets/images/projects/project2.png",
         name: "Business Permit Registration",
         tag1: "Javascript",
-        tag2: "Core Php",
+        tag2: "Php",
         tag3: "Bootstrap",
       },
       {
         id: 3,
         src: "../../assets/images/projects/project3.png",
         name: "School Management System",
-        tag1: "Laravel8",
+        tag1: "Laravel",
         tag2: "MySQL",
         tag3: "Bootstrap",
       },
@@ -34,7 +34,7 @@ export default function Projects() {
         id: 4,
         src: "../../assets/images/projects/project4.png",
         name: "Online News Portal",
-        tag1: "Laravel5",
+        tag1: "Laravel",
         tag2: "MySQL",
         tag3: "Bootstrap",
       },
@@ -42,7 +42,7 @@ export default function Projects() {
         id: 5,
         src: "../../assets/images/projects/project5.png",
         name: "Content Management System",
-        tag1: "Laravel8",
+        tag1: "Laravel",
         tag2: "MySQL",
         tag3: "Bootstrap",
       },
@@ -118,9 +118,9 @@ export default function Projects() {
         <SRLWrapper>
           <div className="row">
             {items.map((item) => (
-              <div className="col-lg-4 mb-5" key={item.id}>
+              <div className="col-xl-4 mb-5" key={item.id}>
                 <h6 className="text-center section-subheading">{item.name}</h6>
-                <img className={`${classes['img-custom']} img-thumbnail img-fluid h-75`} src={item.src} />
+                <img className={`${classes['img-custom']} img-thumbnail img-fluid`} src={item.src} />
                 <div className="d-flex flex-row">
                   <span
                     className={`${classes["project-tags"]} d-flex flex-column`}

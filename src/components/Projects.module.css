@@ -20,3 +20,6 @@
 .img-custom {
   cursor: pointer;
 }
+.img-custom:hover {
+  background-color: var(--purple-color);
+}
