@@ -1,6 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
 import classes from "./Work.module.css";
-import { Fragment } from "react";
 
 export default function Work() {
   return (

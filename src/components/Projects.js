@@ -1,5 +1,4 @@
-import React from "react";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import classes from "./Projects.module.css";
 import { SRLWrapper } from "simple-react-lightbox";
 
@@ -120,7 +119,10 @@ export default function Projects() {
             {items.map((item) => (
               <div className="col-xl-4 mb-5" key={item.id}>
                 <h6 className="text-center section-subheading">{item.name}</h6>
-                <img className={`${classes['img-custom']} img-thumbnail img-fluid`} src={item.src} />
+                <img
+                  className={`${classes["img-custom"]} img-thumbnail img-fluid`}
+                  src={item.src}
+                />
                 <div className="d-flex flex-row">
                   <span
                     className={`${classes["project-tags"]} d-flex flex-column`}

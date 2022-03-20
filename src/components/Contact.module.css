@@ -1,0 +1,5 @@
+.contact-button:hover {
+background-color: var(--purple-color);
+color: #fff;
+transition: all 0.3s ease;
+}

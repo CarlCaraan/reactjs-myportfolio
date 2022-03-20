@@ -5,6 +5,8 @@ import Education from "./components/Education";
 import Work from "./components/Work";
 import Programming from "./components/Programming";
 import Projects from "./components/Projects";
+import Testimonial from "./components/Testimonial";
+import Contact from "./components/Contact";
 
 export default function App() {
   const [education, setEducation] = useState(true);
@@ -26,21 +28,24 @@ export default function App() {
 
   return (
     <div className="App">
+
+      {/* ========= Start Navigation Section ========= */}
+      <nav className="d-flex flex-row justify-content-between">
+        <span className="brand-name"> Dev_Caraan</span>
+        <div className="d-flex flex-row">
+          <span className="mx-4 nav-items">Home </span>
+          <span className="mx-4 nav-items">About me</span>
+          <span className="mx-4 nav-items">Resume </span>
+          <span className="mx-4 nav-items">Testimonial </span>
+          <span className="mx-4 nav-items">Contact </span>
+        </div>
+      </nav>
+      {/* ========= End Navigation Section ========= */}
+
       {/* ========= Start Hero Section ========= */}
       <section className="herosection px-10 py-5">
-        <nav className="d-flex flex-row justify-content-between">
-          <span className="brand-name"> Dev_Caraan</span>
-          <div className="d-flex flex-row">
-            <span className="mx-4 nav-items">Home </span>
-            <span className="mx-4 nav-items">About me</span>
-            <span className="mx-4 nav-items">Resume </span>
-            <span className="mx-4 nav-items">Testimonial </span>
-            <span className="mx-4 nav-items">Contact </span>
-          </div>
-        </nav>
-
         <div className="herosection-2 row justify-content-center">
-          <div className="col-lg-4 col-md-4-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <span className="Im-text">
                 Hello, I'm
@@ -112,10 +117,10 @@ export default function App() {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
               <span className="some-text-about-me">
-                "I'm a Full Stack Web Developer with background knowledge in
-                ReactJs, Laravel and Flask. Strong professional with Bachelor of
-                Science in Information Technology willing to be an asset for an
-                organization."
+                Full Stack Web Developer with background knowledge in ReactJs,
+                Laravel and Flask. Strong professional with Bachelor of Science
+                in Information Technology willing to be an asset for an
+                organization.
               </span>
               <span className="few-highlights">
                 <span className="few-text">SKILLS:</span>
@@ -226,19 +231,64 @@ export default function App() {
       {/* ========= End Resume Section ========= */}
 
       {/* ========= Start Testimonial Section ========= */}
-      <section className="d-flex flex-column">
-        <span className="section-heading">Testimonials</span>
-        <span className="section-subheading">What My Clients Say About Me</span>
-
+      <section className="text-center pb-5">
         {/* Start Background Image */}
-        <div class="home-wrap">
-          <div class="home-inner"></div>
-        </div>
+        <div className="testimonial-bg-image"></div>
         {/* End Background Image */}
+        <div className="d-flex flex-column caption">
+          <span className="section-heading">Testimonials</span>
+          <span className="section-subheading">
+            What My Clients Say About Me
+          </span>
+        </div>
 
+        <Testimonial />
       </section>
-
       {/* ========= End Testimonial Section ========= */}
+
+      {/* ========= Start Contact Section ========= */}
+      <section className="contact-me-part bg-dark">
+        <div className="container py-5">
+          <div className="row">
+            <div className="col-md-4">
+              <br />
+              <span className="brand-name text-white"> Dev_Caraan</span>
+              <p className="text-white mt-3">
+                My name is Carl Aaron Caraan and I'm from Laguna, Philippines.
+                I'm 22 years old and currently student as a Bachelor of Science
+                in Information Technology.
+              </p>
+              <small className="text-white">
+                Powered by <i class="fab fa-react"></i> ReactJs.
+              </small>
+
+              <div className="mt-2">
+                <a href="https://github.com/CarlCaraan" target="_blank">
+                  <i className="fab fa-github text-white fa-2x"></i>
+                </a>
+                <a
+                  href="https://steamcommunity.com/id/MySteamProfileLink/"
+                  target="_blank"
+                >
+                  <i className="fab fa-steam text-white fa-2x ms-2"></i>
+                </a>
+                <a href="https://www.facebook.com/caraancarl/" target="_blank">
+                  <i className="fab fa-facebook text-white fa-2x ms-2"></i>
+                </a>
+              </div>
+              <br />
+              <br />
+              <small className="text-white">
+                <p> © 2022 Carl Caraan. All Rights Reserved.</p>
+              </small>
+            </div>
+            <div className="col-md-8">
+              <Contact />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========= End Contact Section ========= */}
     </div>
   );
 }

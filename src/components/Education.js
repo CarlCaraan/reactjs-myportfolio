@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React, { Component,Fragment } from "react";
 import Carousel from "react-elastic-carousel";
 import classes from "./Education.module.css";
-import { Fragment } from "react";
 
 export default function Education() {
   const breakPoints = [

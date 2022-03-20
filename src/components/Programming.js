@@ -1,6 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
 import classes from "./Programming.module.css";
-import { Fragment } from "react";
 
 export default function Programming() {
   const value = [
@@ -29,7 +28,7 @@ export default function Programming() {
     <Fragment>
       <div className="container-fluid">
         <div className="row">
-          <h4 className={`${classes['resume-title']}`}>Technical Skills</h4>
+          <h4 className={`${classes["resume-title"]}`}>Technical Skills</h4>
           <p>A presentation of my use in each skill.</p>
           {value.map((value, index) => {
             return (
@@ -42,7 +41,9 @@ export default function Programming() {
                       style={{ width: `${value.percentage}%` }}
                     >
                       {" "}
-                      <small className="text-white mx-1">{value.percentage}%</small>
+                      <small className="text-white mx-1">
+                        {value.percentage}%
+                      </small>
                     </div>
                   </div>
                 </div>

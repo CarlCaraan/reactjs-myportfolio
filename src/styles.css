@@ -135,6 +135,7 @@ body {
   font-size: 3rem;
   letter-spacing: 2px;
   text-align: center;
+  text-shadow: 1px 1px 1px;
 }
 .section-subheading {
   font-family: "Poppins", sans-serif;
@@ -153,7 +154,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
-  opacity: 0.8;
   text-align: justify;
 }
 .few-highlights {
@@ -172,7 +172,7 @@ body {
 /* ========= RESUME SECTION ========= */
 
 .resume-outer-section {
-  padding-top: 5rem;
+  margin-bottom: 10rem;
 }
 .resume-options-items {
   font-family: "Raleway",sans-serif;
@@ -214,3 +214,20 @@ body {
   height: 307px;
 }
 
+/* ========= TESTMONIAL SECTION ========= */
+.testimonial-bg-image {
+  background-image: url('./assets/images/testimonial-bg.jpg');
+  min-height:50vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  z-index: -1000;
+  background-position: center auto;
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  margin-top: -30vh;
+  z-index: 1;
+}
