@@ -259,7 +259,7 @@ export default function App() {
                 in Information Technology.
               </p>
               <small className="text-white">
-                Powered by <i class="fab fa-react"></i> ReactJs.
+                Powered by <i className="fab fa-react"></i> ReactJs.
               </small>
 
               <div className="mt-2">

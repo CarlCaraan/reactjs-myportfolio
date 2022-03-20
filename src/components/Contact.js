@@ -13,14 +13,14 @@ export default function Contact() {
         <span className="section-subheading">Let's Stay in touch</span>
         <br />
         <div className="col-6">
-          <label for="name" class="form-label text-white">
+          <label htmlFor="name" className="form-label text-white">
             Name
           </label>
           <input
-          value={name}
-          onChange={(e) => {
-            setName(e.target.value);
-          }}
+            value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
             className="form-control"
             id="name"
             type="text"
@@ -29,7 +29,7 @@ export default function Contact() {
         </div>
 
         <div className="col-6">
-          <label for="email" class="form-label text-white">
+          <label htmlFor="email" className="form-label text-white">
             Email
           </label>
           <input
@@ -47,7 +47,7 @@ export default function Contact() {
       <br />
       <div className="row">
         <div className="col-12">
-          <label for="message" class="form-label text-white">
+          <label htmlFor="message" className="form-label text-white">
             Message
           </label>
           <textarea
@@ -63,8 +63,8 @@ export default function Contact() {
           ></textarea>
         </div>
       </div>
-      <button className={`${classes['contact-button']} mt-2 px-2 rounded`}>
-        <i class="fas fa-paper-plane"></i>
+      <button className={`${classes["contact-button"]} mt-2 px-2 rounded`}>
+        <i className="fas fa-paper-plane"></i>
       </button>
     </Fragment>
   );
