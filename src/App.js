@@ -145,8 +145,8 @@ export default function App() {
         <span className="section-subheading">My formal Bio Details</span>
 
         <div
-          className="resume-new-section row"
-          style={{ width: "70%", marginInline: "auto" }}
+          className="resume-new-section row container"
+          style={{ marginInline: "auto" }}
         >
           <div className="col-lg-4 col-md-4 resume-left-section d-flex flex-row shadow-sm">
             <div className="d-flex flex-column bg-new">

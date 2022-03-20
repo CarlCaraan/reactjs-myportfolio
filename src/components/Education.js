@@ -1,15 +1,36 @@
-import React from "react";
+import React, { Component } from "react";
+import Carousel from "react-elastic-carousel";
 import classes from "./Education.module.css";
 import { Fragment } from "react";
 
 export default function Education() {
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 }
+  ];
+  const state = {
+    items: [
+      { id: 1, src: "../../assets/images/certificates/cert1.jpg" },
+      { id: 2, src: "../../assets/images/certificates/cert2.jpg" },
+      { id: 3, src: "../../assets/images/certificates/cert3.jpg" },
+      { id: 4, src: "../../assets/images/certificates/cert4.jpg" },
+      { id: 5, src: "../../assets/images/certificates/cert5.jpg" },
+      { id: 6, src: "../../assets/images/certificates/cert6.png" },
+      { id: 7, src: "../../assets/images/certificates/cert7.jpg" },
+      { id: 8, src: "../../assets/images/certificates/cert8.png" },
+      { id: 9, src: "../../assets/images/certificates/cert9.jpg" },
+
+    ],
+  };
+  const { items } = state;
   return (
     <Fragment>
       <div className="container-fluid">
         <div className="d-flex flex-column">
-
           {/* Start Timeline */}
-          <h4 className={`${classes['resume-title']}`}>Timeline</h4>
+          <h4 className={`${classes["resume-title"]}`}>Timeline</h4>
           <div
             className={`${classes["education-one"]} my-3 justify-content-between d-flex flex-row`}
           >
@@ -21,9 +42,7 @@ export default function Education() {
                 Bachelor of Science in Information Technology
               </span>
             </div>
-            <span
-              className={`${classes["year-passedout"]} badge bg-secondary`}
-            >
+            <span className={`${classes["year-passedout"]} badge bg-secondary`}>
               2019 - 2023
             </span>
           </div>
@@ -39,9 +58,7 @@ export default function Education() {
                 Senior Highschool
               </span>
             </div>
-            <span
-              className={`${classes["year-passedout"]} badge bg-secondary`}
-            >
+            <span className={`${classes["year-passedout"]} badge bg-secondary`}>
               2017 - 2019
             </span>
           </div>
@@ -57,26 +74,24 @@ export default function Education() {
                 Junior Highschool
               </span>
             </div>
-            <span
-              className={`${classes["year-passedout"]} badge bg-secondary`}
-            >
+            <span className={`${classes["year-passedout"]} badge bg-secondary`}>
               2014 - 2017
             </span>
           </div>
           {/* End Timeline */}
 
           {/* Start Accreditation */}
-          <br/>
-          <hr />  
-          <h4 className={`${classes['resume-title']}`}>Accreditations</h4>
+          <br />
+          <hr />
+          <h4 className={`${classes["resume-title"]}`}>Accreditations</h4>
           <ul>
             <li>
-              <span className={`${classes['accreditation-list']}`}>
-                Since 1st year college Dean's Lister.
+              <span className={`${classes["accreditation-list"]}`}>
+                College Dean's Lister since 1st year.
               </span>
             </li>
             <li>
-              <span className={`${classes['accreditation-list']}`}>
+              <span className={`${classes["accreditation-list"]}`}>
                 Ncae Topnocher (Highschool).
               </span>
             </li>
@@ -84,10 +99,13 @@ export default function Education() {
           {/* End Accreditation */}
 
           {/* Start Certifications */}
-          <br/>
-          <hr />  
-          <h4 className={`${classes['resume-title']}`}>Certifications</h4>
-          
+          <br />
+          <hr />
+          <h4 className={`${classes["resume-title"]}`}>Certifications</h4>
+          <br />
+          <Carousel breakPoints={breakPoints}>
+            {items.map(item => <img height="215px" src={item.src} key={item.id}/>)}
+          </Carousel>
         </div>
       </div>
     </Fragment>
