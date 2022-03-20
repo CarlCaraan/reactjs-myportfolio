@@ -1,0 +1,22 @@
+.resume-title{
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--purple-color);
+  letter-spacing: 2px;
+}
+.project-tags{
+    border-radius: 5px;
+    border: 1px solid var(--purple-color);
+    color: var(--purple-color);
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    padding-block: 2.5px;
+    margin-inline: 2px;
+    font-size: .9rem;
+    margin-top: 8px;
+    width: 100%;
+}
+.img-custom {
+  cursor: pointer;
+}

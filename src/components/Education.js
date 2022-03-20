@@ -102,6 +102,7 @@ export default function Education() {
           <br />
           <hr />
           <h4 className={`${classes["resume-title"]}`}>Certifications</h4>
+          <p>Earned from different online courses out there.</p>
           <br />
           <Carousel breakPoints={breakPoints}>
             {items.map(item => <img height="215px" src={item.src} key={item.id}/>)}
