@@ -15,3 +15,16 @@
   height: 20px;
   margin-top: 10px;
 }
+.resume-title{
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--purple-color);
+  letter-spacing: 2px;
+}
+.accreditation-list {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}

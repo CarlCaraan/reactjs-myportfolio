@@ -29,6 +29,7 @@ export default function Programming() {
     <Fragment>
       <div className="container-fluid">
         <div className="row">
+          <h4 className={`${classes['resume-title']}`}>Technical Skills</h4>
           {value.map((value, index) => {
             return (
               <Fragment>

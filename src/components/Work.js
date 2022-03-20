@@ -7,6 +7,7 @@ export default function Work() {
     <Fragment>
       <div className="container-fluid">
         <div className="d-flex flex-column">
+          <h4 className={`${classes['resume-title']}`}>Experiences</h4>
           <div
             className={`${classes["work-one"]} my-4 justify-content-between d-flex flex-row`}
           >

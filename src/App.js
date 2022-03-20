@@ -47,7 +47,7 @@ export default function App() {
                 <span className="name-Im-text"> Caraan, Carl Aaron</span>
               </span>
               <span className="Im-text-enthusiastic py-2">
-                Web Developer 👨‍💻
+                Full Stack Web Developer 👨‍💻
               </span>
               <span className="Im-text-subheading">
                 I'm 22 years old passionate coder
@@ -126,7 +126,7 @@ export default function App() {
                     <li>Veteran in PHP, Python, Javascript and Jquery.</li>
                     <li>Bootstrap 5 and 4 and UX/UI Figma.</li>
                     <li>Database: MySQL.</li>
-                    <li>Frameworks: Laravel, Reactjs and Flask.</li>
+                    <li>Frameworks: Laravel, ReactJs and Flask.</li>
                     <li>Environment and Tools: VS Code, Git and Github.</li>
                     <li>Proficient in MS Word, Excel and Powerpoint.</li>
                     <li>Able to work under pressure and in tight schedules.</li>

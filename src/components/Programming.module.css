@@ -12,3 +12,10 @@
     font-size: 1.3rem;
     text-transform: uppercase;
 }
+.resume-title{
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--purple-color);
+  letter-spacing: 2px;
+}

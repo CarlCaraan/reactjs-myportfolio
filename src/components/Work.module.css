@@ -21,4 +21,11 @@
   height: 20px;
   margin-top: 10px;
 }
+.resume-title{
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--purple-color);
+  letter-spacing: 2px;
+}
 

@@ -7,6 +7,9 @@ export default function Education() {
     <Fragment>
       <div className="container-fluid">
         <div className="d-flex flex-column">
+
+          {/* Start Timeline */}
+          <h4 className={`${classes['resume-title']}`}>Timeline</h4>
           <div
             className={`${classes["education-one"]} my-3 justify-content-between d-flex flex-row`}
           >
@@ -60,6 +63,31 @@ export default function Education() {
               2014 - 2017
             </span>
           </div>
+          {/* End Timeline */}
+
+          {/* Start Accreditation */}
+          <br/>
+          <hr />  
+          <h4 className={`${classes['resume-title']}`}>Accreditations</h4>
+          <ul>
+            <li>
+              <span className={`${classes['accreditation-list']}`}>
+                Since 1st year college Dean's Lister.
+              </span>
+            </li>
+            <li>
+              <span className={`${classes['accreditation-list']}`}>
+                Ncae Topnocher (Highschool).
+              </span>
+            </li>
+          </ul>
+          {/* End Accreditation */}
+
+          {/* Start Certifications */}
+          <br/>
+          <hr />  
+          <h4 className={`${classes['resume-title']}`}>Certifications</h4>
+          
         </div>
       </div>
     </Fragment>
