@@ -199,7 +199,7 @@ export default function App() {
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
               <span className="some-text-about-me">
                 Full Stack Web Developer with background knowledge mostly in
-                ReactJs, Laravel and Flask. Skilled in Frond End technologies
+                ReactJs, Laravel and Flask. Skilled in Front End technologies
                 such as Html, CSS, Javascript, React, Bootstrap and Sass, and
                 Back End technologies such as Php, Python NodeJs, and MySQL.
                 Learning a variety of scripting languages and APIs is one of my
