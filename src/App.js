@@ -54,7 +54,7 @@ export default function App() {
                   href="https://github.com/CarlCaraan"
                   target="_blank"
                 >
-                  <span className="border rounded p-1">
+                  <span className="border border-2 rounded p-1">
                     <i className="fab fa-github custom-icons text-secondary"></i>
                     <small> Visit me on Github</small>
                   </span>
@@ -67,7 +67,7 @@ export default function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#about">
-                  About me
+                  About Me
                 </a>
               </li>
               <li className="nav-item">
@@ -105,8 +105,8 @@ export default function App() {
                 Full Stack Web Developer 👨‍💻
               </span>
               <div className="d-flex flex-row justify-content-center mt-3">
-                <button className="btn-hire-me">Hire Me</button>
-                <button className="btn-resume-me">Get Resume</button>
+                <a className="btn-hire-me" href="#contact">Hire Me</a>
+                <a href="../assets/downloads/resume.pdf" className="btn-resume-me" download>Get Resume</a>
               </div>
             </div>
           </div>

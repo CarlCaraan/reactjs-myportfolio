@@ -115,9 +115,11 @@ a.top-scroll:hover {
   padding: 5px 40px;
   border: 2px solid white;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 .btn-hire-me:hover {
   background: #aa53cf;
+  color: #fff;
 }
 .btn-resume-me {
   font-size: 1.3rem;
@@ -130,9 +132,12 @@ a.top-scroll:hover {
   border: 2px solid white;
   transition: all 0.3s ease-in-out;
   animation: Anim 1s ease-in-out forwards;
+  text-decoration: none;
+  cursor: pointer;
 }
 .btn-resume-me:hover {
   background: #95a5a6;
+  color: #fff;
 }
 @keyframes Anim {
   0% {
