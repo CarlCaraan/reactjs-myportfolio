@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import ScrollToTop from "react-scroll-to-top";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function App() {
   const [education, setEducation] = useState(true);
@@ -29,6 +30,14 @@ export default function App() {
 
   return (
     <div className="App">
+      {/* ========= Start Messanger API Section ========= */}
+      <MessengerCustomerChat
+        pageId="105571677920395"
+        appId="3390610621222776"
+        htmlRef="<REF_STRING>"
+      />
+      {/* ========= End Messanger API Section ========= */}
+
       {/* ========= Start Navigation Section ========= */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid px-5 py-4">
@@ -105,8 +114,16 @@ export default function App() {
                 Full Stack Web Developer 👨‍💻
               </span>
               <div className="d-flex flex-row justify-content-center mt-3">
-                <a className="btn-hire-me" href="#contact">Hire Me</a>
-                <a href="../assets/downloads/resume.pdf" className="btn-resume-me" download>Get Resume</a>
+                <a className="btn-hire-me" href="#contact">
+                  Hire Me
+                </a>
+                <a
+                  href="../assets/downloads/resume.pdf"
+                  className="btn-resume-me"
+                  download
+                >
+                  Get Resume
+                </a>
               </div>
             </div>
           </div>
@@ -177,7 +194,7 @@ export default function App() {
                 looking for a challenging opportunity that will enable me to use
                 my skills and abilities to achieve a challenging goal.
               </span>
-              <br/>
+              <br />
               <span className="few-highlights">
                 <span className="few-text">SKILLS:</span>
                 <span className="few-list">
@@ -345,7 +362,7 @@ export default function App() {
             © 2022 Carl Caraan. All Rights Reserved.
           </small>
         </div>
-        <ScrollToTop smooth color="#8e44ad" top="1000"/>
+        <ScrollToTop smooth color="#8e44ad" top="1000" />
       </footer>
       {/* ========= End Footer Section ========= */}
     </div>
