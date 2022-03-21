@@ -31,10 +31,7 @@ export default function App() {
   return (
     <div className="App">
       {/* ========= Start Messanger API Section ========= */}
-      <MessengerCustomerChat
-        pageId="105571677920395"
-        appId="3390610621222776"
-      />
+      <MessengerCustomerChat pageId="105571677920395" appId="405852008017560" />
       {/* ========= End Messanger API Section ========= */}
 
       {/* ========= Start Navigation Section ========= */}
