@@ -34,7 +34,6 @@ export default function App() {
       <MessengerCustomerChat
         pageId="105571677920395"
         appId="3390610621222776"
-        htmlRef="<REF_STRING>"
       />
       {/* ========= End Messanger API Section ========= */}
 
