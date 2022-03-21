@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <Fragment>
-      <div className="pb-5 pt-3">
+      <div className="contact-wrapper">
         <div className="row">
           <span className="section-heading">Contact Me</span>
           <span className="section-subheading">Let's Stay in touch</span>

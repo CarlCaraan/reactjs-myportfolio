@@ -7,6 +7,7 @@ import Programming from "./components/Programming";
 import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
+import ScrollToTop from "react-scroll-to-top";
 
 export default function App() {
   const [education, setEducation] = useState(true);
@@ -49,38 +50,38 @@ export default function App() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a
-                  className="nav-link me-2" 
+                  className="nav-link me-2"
                   href="https://github.com/CarlCaraan"
                   target="_blank"
                 >
                   <span className="border rounded p-1">
-                  <i className="fab fa-github custom-icons text-secondary"></i>
-                  <small> Visit me on Github</small>
+                    <i className="fab fa-github custom-icons text-secondary"></i>
+                    <small> Visit me on Github</small>
                   </span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#about">
                   About me
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#resume">
                   Resume
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#testimonial">
                   Testimonial
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#contact">
                   Contact
                 </a>
               </li>
@@ -100,13 +101,10 @@ export default function App() {
                 Hello, I'm
                 <span className="name-Im-text"> Caraan, Carl Aaron</span>
               </span>
-              <span className="Im-text-enthusiastic py-2">
+              <span className="Im-text-enthusiastic mt-2">
                 Full Stack Web Developer 👨‍💻
               </span>
-              <span className="Im-text-subheading">
-                I'm 22 years old passionate coder
-              </span>
-              <div className="d-flex flex-row justify-content-center mt-5">
+              <div className="d-flex flex-row justify-content-center mt-3">
                 <button className="btn-hire-me">Hire Me</button>
                 <button className="btn-resume-me">Get Resume</button>
               </div>
@@ -135,10 +133,11 @@ export default function App() {
             </div>
           </div>
         </div>
+        <h1 className="text-center main-caption">
+          ~ Let's Build Something Epic! :)
+        </h1>
       </section>
-      <h1 className="text-center main-caption">
-        ~ Let's Build Something Epic! :)
-      </h1>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0099ff"
@@ -149,7 +148,10 @@ export default function App() {
       {/* ========= End Hero Section ========= */}
 
       {/* ========= Start About Section ========= */}
-      <section className="about-me-section aboutme-inside pb-5">
+      <section
+        className="about-me-section aboutme-inside pb-5 offset"
+        id="about"
+      >
         <div className="d-flex flex-column">
           <span className="section-heading">About me</span>
           <span className="section-subheading">Why Choose me?</span>
@@ -166,11 +168,16 @@ export default function App() {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
               <span className="some-text-about-me">
-                Full Stack Web Developer with background knowledge in ReactJs,
-                Laravel and Flask. Strong professional with Bachelor of Science
-                in Information Technology willing to be an asset for an
-                organization.
+                Full Stack Web Developer with background knowledge mostly in
+                ReactJs, Laravel and Flask. Skilled in Frond End technologies
+                such as Html, CSS, Javascript, React, Bootstrap and Sass, and
+                Back End technologies such as Php, Python NodeJs, and MySQL.
+                Learning a variety of scripting languages and APIs is one of my
+                strengths. I am also a hard worker and a team player. I am
+                looking for a challenging opportunity that will enable me to use
+                my skills and abilities to achieve a challenging goal.
               </span>
+              <br/>
               <span className="few-highlights">
                 <span className="few-text">SKILLS:</span>
                 <span className="few-list">
@@ -193,7 +200,10 @@ export default function App() {
       {/* ========= End About Section ========= */}
 
       {/* ========= Start Resume Section ========= */}
-      <section className="resume-outer-section d-flex flex-column">
+      <section
+        className="resume-outer-section d-flex flex-column offset"
+        id="resume"
+      >
         <span className="section-heading">Resume</span>
         <span className="section-subheading">My formal Bio Details</span>
 
@@ -280,7 +290,7 @@ export default function App() {
       {/* ========= End Resume Section ========= */}
 
       {/* ========= Start Testimonial Section ========= */}
-      <section className="text-center pb-5">
+      <section className="text-center pb-5 offset" id="testimonial">
         {/* Start Background Image */}
         <div className="testimonial-bg-image"></div>
         {/* End Background Image */}
@@ -296,8 +306,8 @@ export default function App() {
       {/* ========= End Testimonial Section ========= */}
 
       {/* ========= Start Contact Section ========= */}
-      <section className="contact-me-part">
-        <div className="container py-5">
+      <section className="contact-me-part offset" id="contact">
+        <div className="container">
           <Contact />
         </div>
       </section>
@@ -335,6 +345,7 @@ export default function App() {
             © 2022 Carl Caraan. All Rights Reserved.
           </small>
         </div>
+        <ScrollToTop smooth color="#8e44ad" top="1000"/>
       </footer>
       {/* ========= End Footer Section ========= */}
     </div>

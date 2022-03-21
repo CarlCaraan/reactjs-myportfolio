@@ -56,7 +56,7 @@ export default function Projects() {
       {
         id: 7,
         src: "../../assets/images/projects/project7.png",
-        name: "Online Employment System",
+        name: "Expenses Tracker App",
         tag1: "ReactJs",
         tag2: "Javascript",
         tag3: "CSS",

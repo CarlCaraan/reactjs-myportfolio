@@ -24,7 +24,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
 /*============= TOP SCROLL =============*/
 
 .top-scroll svg.svg-inline--fa {
@@ -172,8 +177,8 @@ a.top-scroll:hover {
 }
 .some-text-about-me {
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
   text-align: justify;
 }
 .few-highlights {
@@ -182,11 +187,11 @@ a.top-scroll:hover {
 }
 .few-text {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .few-list {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* ========= RESUME SECTION ========= */
@@ -256,7 +261,10 @@ a.top-scroll:hover {
 .contact-me-part {
   background: #bdc3c7;
 }
-
+.contact-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
 /* ========= FOOTER SECTION ========= */
 
 .custom-icons {
