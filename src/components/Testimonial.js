@@ -28,7 +28,7 @@ export default function Testimonials() {
         <div className="row my-5">
           {testimonials.map((value) => {
             return (
-              <div className="col-lg-4 col-sm-12 col-md-6 mb-2" key={value.id}>
+              <div className="col-lg-4 col-sm-12 col-md-6 mb-2" data-aos="fade-up-right" key={value.id}>
                 <div className="testimonial-card d-flex flex-column px-3 py-4 shadow border rounded">
                   <span className={`${classes["description"]}`}>
                     {value.description}

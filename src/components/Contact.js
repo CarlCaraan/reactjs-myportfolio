@@ -61,11 +61,14 @@ export default function Contact() {
     <Fragment>
       <div className="contact-wrapper">
         <form ref={form} onSubmit={sendEmail}>
+          <div className="d-flex flex-column">
+            <span className="section-heading" data-aos="fade-up">Contact Me</span>
+            <span className="section-subheading" data-aos="fade-up">Let's Stay in touch</span>
+          </div>
+            <br />
+            <br />
+            <div className="data-animation" data-aos="fade-up">
           <div className="row">
-            <span className="section-heading">Contact Me</span>
-            <span className="section-subheading">Let's Stay in touch</span>
-            <br />
-            <br />
             <div className="col-md-6 mb-3">
               <label htmlFor="name" className="form-label fw-bold">
                 Name
@@ -135,6 +138,8 @@ export default function Contact() {
               {error.title}
             </small>
           )}
+            </div>
+
         </form>
       </div>
     </Fragment>
