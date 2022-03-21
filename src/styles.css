@@ -104,8 +104,13 @@ a.top-scroll:hover {
   font-size: 28px;
 }
 .Im-text-enthusiastic {
+  font-family: "Lato", sans-serif;
   color: var(--primary-app-color);
   font-weight: 700;
+}
+.Im-text-email {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
 }
 .Im-text-subheading {
   font-family: "Lato", sans-serif;

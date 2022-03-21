@@ -118,6 +118,7 @@ export default function App() {
               <span className="Im-text-enthusiastic mt-2">
                 Full Stack Web Developer 👨‍💻
               </span>
+              <span className="Im-text-email mt-2">bannedefused@gmail.com</span>
               <div className="d-flex flex-row justify-content-center mt-3">
                 <div className="row">
                   <div className="col-sm-6">
