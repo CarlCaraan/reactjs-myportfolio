@@ -163,7 +163,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <h1 className="text-center main-caption">
+        <h1 className="text-center main-caption" data-aos="fade-up">
           ~ Let's Build Something Epic! :)
         </h1>
       </section>
