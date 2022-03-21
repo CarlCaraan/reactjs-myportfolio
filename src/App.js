@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import ScrollToTop from "react-scroll-to-top";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 export default function App() {
   const [education, setEducation] = useState(true);
@@ -110,16 +110,25 @@ export default function App() {
                 Full Stack Web Developer 👨‍💻
               </span>
               <div className="d-flex flex-row justify-content-center mt-3">
-                <a className="btn-hire-me" href="#contact">
-                  Hire Me
-                </a>
-                <a
-                  href="../assets/downloads/resume.pdf"
-                  className="btn-resume-me"
-                  download
-                >
-                  Get Resume
-                </a>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <a
+                      className="btn btn-outline-success w-100 mb-2 herosection-button"
+                      href="#contact"
+                    >
+                      Hire Me
+                    </a>
+                  </div>
+                  <div className="col-sm-6">
+                    <a
+                      href="../assets/downloads/resume.pdf"
+                      className="btn btn-outline-success w-100 herosection-button"
+                      download
+                    >
+                      Resume
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -330,10 +339,10 @@ export default function App() {
       <footer>
         <div className="bg-dark pt-5 pb-4 text-center">
           <span className="brand-name text-white"> Dev_Caraan</span>
-          <p className="text-white mt-3">
-            My name is Carl Aaron Caraan and I'm from Laguna,
-            <br /> Philippines. I'm 22 years old and currently student as a{" "}
-            <br /> Bachelor of Science in Information Technology.
+          <p className="text-white mt-3 col-lg-4 col-md-4 col-sm-3 mx-auto">
+            My name is Carl Aaron Caraan and I'm from Laguna, Philippines. I'm
+            22 years old and currently student as a Bachelor of Science in
+            Information Technology.
           </p>
           <small className="text-white">
             Powered by <i className="fab fa-react"></i> ReactJs.

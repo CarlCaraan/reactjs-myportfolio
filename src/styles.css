@@ -64,7 +64,14 @@ a.top-scroll:hover {
 }
 
 /* ========= HERO SECTION ========= */
-
+.herosection-button {
+  color: var(--purple-color)!important;
+  border-color: var(--purple-color)!important;
+}
+.herosection-button:hover {
+  background: var(--purple-color)!important;
+  color: #fff!important;
+}
 .herosection {
   background: linear-gradient(
     -9,
@@ -104,51 +111,6 @@ a.top-scroll:hover {
   font-family: "Lato", sans-serif;
   color: #000;
   font-size: 1.4rem;
-}
-.btn-hire-me {
-  font-size: 1.3rem;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  background: #8e44ad;
-  border-radius: 25px;
-  margin-inline: 12px;
-  padding: 5px 40px;
-  border: 2px solid white;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-.btn-hire-me:hover {
-  background: #aa53cf;
-  color: #fff;
-}
-.btn-resume-me {
-  font-size: 1.3rem;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  background: #7f8c8d;
-  border-radius: 25px;
-  margin-inline: 12px;
-  padding: 5px 40px;
-  border: 2px solid white;
-  transition: all 0.3s ease-in-out;
-  animation: Anim 1s ease-in-out forwards;
-  text-decoration: none;
-  cursor: pointer;
-}
-.btn-resume-me:hover {
-  background: #95a5a6;
-  color: #fff;
-}
-@keyframes Anim {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.075);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 .custom-avatar {
   border-radius: 50%;
@@ -280,4 +242,41 @@ a.top-scroll:hover {
   color: var(--primary-app-color);
 }
 
-/* ========= BOOTSTRAP BREAKPOINTS ========= */
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+@media (max-width: 991px) {
+
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767px) {
+
+}
+
+/* Devices under 576px (sm) */
+@media (max-width: 575px) {
+ .brand-name{
+   font-size: 1.4rem;
+ }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
