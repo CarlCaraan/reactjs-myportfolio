@@ -13,7 +13,6 @@ export default function App() {
   const [workhistory, setWorkHistory] = useState(false);
   const [programming, setProgramming] = useState(false);
   const [projects, setProjects] = useState(false);
-  const [opennav, setOpenNav] = useState(false);
 
   function SetAllFalse() {
     setEducation(false);
@@ -30,27 +29,70 @@ export default function App() {
   return (
     <div className="App">
       {/* ========= Start Navigation Section ========= */}
-      <nav
-        className={
-          !opennav
-            ? "d-flex bg-new navbar-new flex-rows px-9 py-5 transition-all"
-            : "d-flex bg-new navbar-fixed-new flex-rows px-9 py-5 transition-all"
-        }
-      >
-        <span className="brand-name"> Dev_Caraan</span>
-        <div className="d-flex flex-rows">
-          <span className="mx-4 nav-items">Home </span>
-          <span className="mx-4 nav-items">About me</span>
-          <span className="mx-4 nav-items">Resume </span>
-          <span className="mx-4 nav-items">Testimonial </span>
-          <span className="mx-4 nav-items">Contact </span>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid px-5 py-4">
+          <a className="brand-name navbar-brand" href="#">
+            Dev_Caraan
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a
+                  className="nav-link me-2" 
+                  href="https://github.com/CarlCaraan"
+                  target="_blank"
+                >
+                  <span className="border rounded p-1">
+                  <i className="fab fa-github custom-icons text-secondary"></i>
+                  <small> Visit me on Github</small>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  About me
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  Testimonial
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
+
       {/* ========= End Navigation Section ========= */}
 
       {/* ========= Start Hero Section ========= */}
       <section className="herosection px-10 py-2">
-          <div className="bars" onClick={() => setOpenNav(!opennav)}></div>
         <div className="herosection-2 row justify-content-center">
           <div className="col-lg-4 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
@@ -254,48 +296,47 @@ export default function App() {
       {/* ========= End Testimonial Section ========= */}
 
       {/* ========= Start Contact Section ========= */}
-      <section className="contact-me-part bg-dark">
+      <section className="contact-me-part">
         <div className="container py-5">
-          <div className="row">
-            <div className="col-md-4">
-              <br />
-              <span className="brand-name text-white"> Dev_Caraan</span>
-              <p className="text-white mt-3">
-                My name is Carl Aaron Caraan and I'm from Laguna, Philippines.
-                I'm 22 years old and currently student as a Bachelor of Science
-                in Information Technology.
-              </p>
-              <small className="text-white">
-                Powered by <i className="fab fa-react"></i> ReactJs.
-              </small>
-
-              <div className="mt-2">
-                <a href="https://github.com/CarlCaraan" target="_blank">
-                  <i className="fab fa-github text-white fa-2x"></i>
-                </a>
-                <a
-                  href="https://steamcommunity.com/id/MySteamProfileLink/"
-                  target="_blank"
-                >
-                  <i className="fab fa-steam text-white fa-2x ms-2"></i>
-                </a>
-                <a href="https://www.facebook.com/caraancarl/" target="_blank">
-                  <i className="fab fa-facebook text-white fa-2x ms-2"></i>
-                </a>
-              </div>
-              <br />
-              <br />
-              <small className="text-white">
-                <p> © 2022 Carl Caraan. All Rights Reserved.</p>
-              </small>
-            </div>
-            <div className="col-md-8">
-              <Contact />
-            </div>
-          </div>
+          <Contact />
         </div>
       </section>
       {/* ========= End Contact Section ========= */}
+
+      {/* ========= Start Footer Section ========= */}
+      <footer>
+        <div className="bg-dark pt-5 pb-4 text-center">
+          <span className="brand-name text-white"> Dev_Caraan</span>
+          <p className="text-white mt-3">
+            My name is Carl Aaron Caraan and I'm from Laguna,
+            <br /> Philippines. I'm 22 years old and currently student as a{" "}
+            <br /> Bachelor of Science in Information Technology.
+          </p>
+          <small className="text-white">
+            Powered by <i className="fab fa-react"></i> ReactJs.
+          </small>
+
+          <div className="mt-3">
+            <a href="https://github.com/CarlCaraan" target="_blank">
+              <i className="fab fa-github fa-2x custom-icons"></i>
+            </a>
+            <a
+              href="https://steamcommunity.com/id/MySteamProfileLink/"
+              target="_blank"
+            >
+              <i className="fab fa-steam fa-2x ms-2 custom-icons"></i>
+            </a>
+            <a href="https://www.facebook.com/caraancarl/" target="_blank">
+              <i className="fab fa-facebook fa-2x ms-2 custom-icons"></i>
+            </a>
+          </div>
+          <br />
+          <small className="text-white">
+            © 2022 Carl Caraan. All Rights Reserved.
+          </small>
+        </div>
+      </footer>
+      {/* ========= End Footer Section ========= */}
     </div>
   );
 }
