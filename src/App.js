@@ -1,6 +1,6 @@
 import "./styles.css";
 import avatar from "./assets/Caraan.png";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import Education from "./components/Education";
 import Work from "./components/Work";
 import Programming from "./components/Programming";
@@ -33,7 +33,8 @@ export default function App() {
   useEffect(() => {
     Aos.init({
       duration: 1500,
-      once: true
+      disable: "mobile",
+      once: true,
     });
   }, []);
 
@@ -185,9 +186,16 @@ export default function App() {
         id="about"
       >
         <div className="d-flex flex-column">
-          <span className="section-heading" data-aos="fade-up">About me</span>
-          <span className="section-subheading" data-aos="fade-up">Why Choose me?</span>
-          <div className="row justify-content-center shadow-lg my-5 about-content-wrapper container" data-aos="fade-up">
+          <span className="section-heading" data-aos="fade-up">
+            About me
+          </span>
+          <span className="section-subheading" data-aos="fade-up">
+            Why Choose me?
+          </span>
+          <div
+            className="row justify-content-center shadow-lg my-5 about-content-wrapper container"
+            data-aos="fade-up"
+          >
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
               <lottie-player
                 src="https://assets7.lottiefiles.com/packages/lf20_e7y2w0zq.json"
@@ -236,11 +244,16 @@ export default function App() {
         className="resume-outer-section d-flex flex-column offset"
         id="resume"
       >
-        <span className="section-heading" data-aos="fade-up">Resume</span>
-        <span className="section-subheading" data-aos="fade-up">My formal Bio Details</span>
-        <br/>
+        <span className="section-heading" data-aos="fade-up">
+          Resume
+        </span>
+        <span className="section-subheading" data-aos="fade-up">
+          My formal Bio Details
+        </span>
+        <br />
         <div
-          className="resume-new-section row container" data-aos="fade-up"
+          className="resume-new-section row container"
+          data-aos="fade-up"
           style={{ marginInline: "auto" }}
         >
           <div className="col-lg-4 col-md-4 resume-left-section d-flex flex-row shadow-sm">
@@ -327,7 +340,9 @@ export default function App() {
         <div className="testimonial-bg-image"></div>
         {/* End Background Image */}
         <div className="d-flex flex-column caption">
-          <span className="section-heading" data-aos="fade-up">Testimonials</span>
+          <span className="section-heading" data-aos="fade-up">
+            Testimonials
+          </span>
           <span className="section-subheading" data-aos="fade-up">
             What My Clients Say About Me
           </span>
