@@ -166,12 +166,12 @@ export default function App() {
             </div>
           </div>
         </div>
-        <h1 className="text-center main-caption" data-aos="fade-up">
+        <h1 className="text-center main-caption" data-aos="fade">
           ~ Let's Build Something Epic! :)
         </h1>
       </section>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" data-aos="slide-up">
         <path
           fill="#0099ff"
           fillOpacity="1"

@@ -62,84 +62,81 @@ export default function Contact() {
       <div className="contact-wrapper">
         <form ref={form} onSubmit={sendEmail}>
           <div className="d-flex flex-column">
-            <span className="section-heading" data-aos="fade-up">Contact Me</span>
+            <span className="section-heading" data-aos="fade-up">
+              Contact Me
+            </span>
             <span className="section-subheading" data-aos="fade-up">Let's Stay in touch</span>
           </div>
+          <br />
+          <br />
+          <div className="data-animation" data-aos="fade-up">
+            <div className="row">
+              <div className="col-md-6 mb-3">
+                <label htmlFor="name" className="form-label fw-bold">
+                  Name
+                </label>
+                <input
+                  value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
+                  className="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name"
+                  name="name"
+                  ref={nameInputRef}
+                />
+              </div>
+
+              <div className="col-md-6">
+                <label htmlFor="email" className="form-label fw-bold">
+                  Email
+                </label>
+                <input
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
+                  className="form-control"
+                  id="email"
+                  type="text"
+                  placeholder="Enter your email"
+                  name="email"
+                  ref={emailInputRef}
+                />
+              </div>
+            </div>
+            <br />
+            <div className="row">
+              <div className="col-12">
+                <label htmlFor="message" className="form-label fw-bold">
+                  Message
+                </label>
+                <textarea
+                  value={message}
+                  onChange={(e) => {
+                    setMessage(e.target.value);
+                  }}
+                  className="form-control"
+                  id=""
+                  cols="30"
+                  rows="3"
+                  placeholder="Enter your message"
+                  message="message"
+                  ref={messageInputRef}
+                ></textarea>
+              </div>
+            </div>
+            <input
+              type="submit"
+              className={`${classes["contact-button"]} mt-2 px-2 rounded`}
+              value="Submit"
+            />
             <br />
             <br />
-            <div className="data-animation" data-aos="fade-up">
-          <div className="row">
-            <div className="col-md-6 mb-3">
-              <label htmlFor="name" className="form-label fw-bold">
-                Name
-              </label>
-              <input
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-                className="form-control"
-                id="name"
-                type="text"
-                placeholder="Enter your name"
-                name="name"
-                ref={nameInputRef}
-              />
-            </div>
-
-            <div className="col-md-6">
-              <label htmlFor="email" className="form-label fw-bold">
-                Email
-              </label>
-              <input
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-                className="form-control"
-                id="email"
-                type="text"
-                placeholder="Enter your email"
-                name="email"
-                ref={emailInputRef}
-              />
-            </div>
+            {error && <small title="error.title">{error.title}</small>}
           </div>
-          <br />
-          <div className="row">
-            <div className="col-12">
-              <label htmlFor="message" className="form-label fw-bold">
-                Message
-              </label>
-              <textarea
-                value={message}
-                onChange={(e) => {
-                  setMessage(e.target.value);
-                }}
-                className="form-control"
-                id=""
-                cols="30"
-                rows="3"
-                placeholder="Enter your message"
-                message="message"
-                ref={messageInputRef}
-              ></textarea>
-            </div>
-          </div>
-          <input
-            type="submit"
-            className={`${classes["contact-button"]} mt-2 px-2 rounded`}
-            value="Submit"
-          />
-          <br />
-          <br />
-          {error && (
-            <small title="error.title">
-              {error.title}
-            </small>
-          )}
-            </div>
-
         </form>
       </div>
     </Fragment>
