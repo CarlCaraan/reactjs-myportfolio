@@ -299,9 +299,6 @@ ion-icon {
   .brand-name {
     font-size: 1.4rem;
   }
-  .navbar-wrapper{
-    padding-block: 0px!important;
-  }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
