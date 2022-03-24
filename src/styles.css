@@ -268,7 +268,7 @@ ion-icon {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1681 (xl) */
-@media (max-width: 1681) {
+@media (max-width: 1681px) {
   .herosection {
     padding-block: 0;
   }
