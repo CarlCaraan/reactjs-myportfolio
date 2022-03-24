@@ -269,6 +269,12 @@ ion-icon {
 
 /* Devices under 992px (lg) */
 @media (max-width: 991px) {
+  .herosection {
+    padding-block: 0;
+  }
+  .herosection-2 {
+    padding-top: 10px;
+  }
 }
 
 /* Devices under 768px (md) */
