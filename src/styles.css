@@ -45,12 +45,12 @@ a.top-scroll {
   right: 1.2rem;
   bottom: 1.2rem;
   position: fixed;
-  opacity: .3;
+  opacity: 0.3;
   z-index: 1000;
   display: none;
 }
 a.top-scroll:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* ========= NAVIGATION SECTION ========= */
@@ -68,12 +68,12 @@ a.top-scroll:hover {
 
 /* ========= HERO SECTION ========= */
 .herosection-button {
-  color: var(--purple-color)!important;
-  border-color: var(--purple-color)!important;
+  color: var(--purple-color) !important;
+  border-color: var(--purple-color) !important;
 }
 .herosection-button:hover {
-  background: var(--purple-color)!important;
-  color: #fff!important;
+  background: var(--purple-color) !important;
+  color: #fff !important;
 }
 .herosection {
   background: linear-gradient(
@@ -123,6 +123,17 @@ a.top-scroll:hover {
 .custom-avatar {
   border-radius: 50%;
 }
+.herosection-a-icons {
+  text-decoration: none;
+  color: #2c3e50;
+}
+.herosection-a-icons:hover {
+  color: #2c3e50;
+  opacity: 0.8;
+  border-radius: 5px;
+  padding-top: 1px;
+  transition: all 0.3s linear;
+}
 
 /* ========= ABOUT SECTION ========= */
 
@@ -167,6 +178,10 @@ a.top-scroll:hover {
 .few-list {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+}
+ion-icon {
+  font-size: 64px;
+  color: #f1f1f1;
 }
 
 /* ========= RESUME SECTION ========= */
@@ -254,21 +269,18 @@ a.top-scroll:hover {
 
 /* Devices under 992px (lg) */
 @media (max-width: 991px) {
-
 }
 
 /* Devices under 768px (md) */
 @media (max-width: 767px) {
-
 }
 
 /* Devices under 576px (sm) */
 @media (max-width: 575px) {
- .brand-name{
-   font-size: 1.4rem;
- }
+  .brand-name {
+    font-size: 1.4rem;
+  }
 }
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 

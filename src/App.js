@@ -117,7 +117,7 @@ export default function App() {
                 <span className="name-Im-text"> Caraan, Carl Aaron</span>
               </span>
               <span className="Im-text-enthusiastic mt-2">
-                Full Stack Web Developer 👨‍💻
+                Full Stack Web Developer <i className="fas fa-laptop-code"></i>
               </span>
               <span className="Im-text-email mt-2">bannedefused@gmail.com</span>
               <div className="d-flex flex-row justify-content-center mt-3">
@@ -169,9 +169,55 @@ export default function App() {
         <h1 className="text-center main-caption" data-aos="fade">
           &lt;Let's Build Something Epic/&gt;
         </h1>
+        <div className="text-center fa-2x mt-3">
+          <a
+            href="https://www.facebook.com/caraancarl/"
+            target="_blank"
+            className="herosection-a-icons"
+            title="Facebook"
+          >
+            <i className="fab fa-facebook mx-2"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/carl-aaron-caraan-b862aa220/"
+            target="_blank"
+            className="herosection-a-icons"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin mx-2"></i>
+          </a>
+          <a
+            href="https://steamcommunity.com/id/MySteamProfileLink/"
+            target="_blank"
+            className="herosection-a-icons"
+            title="Steam"
+          >
+            <i className="fab fa-steam mx-2"></i>
+          </a>
+          <a
+            href="https://github.com/CarlCaraan"
+            target="_blank"
+            className="herosection-a-icons"
+            title="Github"
+          >
+            <i className="fab fa-github mx-2"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/dev_plousious/"
+            target="_blank"
+            className="herosection-a-icons"
+            title="Instagram"
+          >
+            <i class="fab fa-instagram-square mx-2"></i>
+          </a>
+        </div>
       </section>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" data-aos="slide-up">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        data-aos="slide-up"
+      >
         <path
           fill="#0099ff"
           fillOpacity="1"
@@ -196,6 +242,17 @@ export default function App() {
             className="row justify-content-center shadow-lg my-5 about-content-wrapper container"
             data-aos="fade-up"
           >
+            <div className="text-center pt-5">
+              <ion-icon name="logo-html5"></ion-icon>
+              <ion-icon name="logo-sass"></ion-icon>
+              <ion-icon name="logo-css3"></ion-icon>
+              <ion-icon name="logo-javascript"></ion-icon>
+              <ion-icon name="logo-react"></ion-icon>
+              <ion-icon name="logo-nodejs"></ion-icon>
+              <ion-icon name="logo-laravel"></ion-icon>
+              <ion-icon name="logo-npm"></ion-icon>
+              <ion-icon name="logo-python"></ion-icon>
+            </div>
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
               <lottie-player
                 src="https://assets7.lottiefiles.com/packages/lf20_e7y2w0zq.json"
@@ -206,6 +263,7 @@ export default function App() {
                 autoplay
               ></lottie-player>
             </div>
+
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
               <span className="some-text-about-me">
                 Full Stack Web Developer with background knowledge mostly in
@@ -233,6 +291,17 @@ export default function App() {
                   </ul>
                 </span>
               </span>
+            </div>
+            <div className="text-center pb-5">
+              <ion-icon name="logo-html5"></ion-icon>
+              <ion-icon name="logo-sass"></ion-icon>
+              <ion-icon name="logo-css3"></ion-icon>
+              <ion-icon name="logo-javascript"></ion-icon>
+              <ion-icon name="logo-react"></ion-icon>
+              <ion-icon name="logo-nodejs"></ion-icon>
+              <ion-icon name="logo-laravel"></ion-icon>
+              <ion-icon name="logo-npm"></ion-icon>
+              <ion-icon name="logo-python"></ion-icon>
             </div>
           </div>
         </div>
