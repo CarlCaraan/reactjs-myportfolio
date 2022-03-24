@@ -46,7 +46,7 @@ export default function App() {
 
       {/* ========= Start Navigation Section ========= */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid px-5 py-4">
+        <div className="container-fluid px-5 py-4 navbar-wrapper">
           <a className="brand-name navbar-brand" href="#">
             Dev_Caraan
           </a>

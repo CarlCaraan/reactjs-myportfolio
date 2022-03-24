@@ -267,13 +267,16 @@ ion-icon {
 
 /*============= MEDIA QUERIES =============*/
 
-/* Devices under 1681 (xl) */
+/* Devices under 1681 (xxl) */
 @media (max-width: 1681px) {
   .herosection {
     padding-block: 0;
   }
   .herosection-2 {
     padding-top: 10px;
+  }
+  .navbar-wrapper{
+    padding-block: 5px!important;
   }
 }
 
@@ -295,6 +298,9 @@ ion-icon {
 @media (max-width: 575px) {
   .brand-name {
     font-size: 1.4rem;
+  }
+  .navbar-wrapper{
+    padding-block: 0px!important;
   }
 }
 
