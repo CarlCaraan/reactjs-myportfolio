@@ -184,7 +184,7 @@ export default function App() {
             className="herosection-a-icons"
             title="Linkedin"
           >
-            <i class="fab fa-linkedin mx-2"></i>
+            <i className="fab fa-linkedin mx-2"></i>
           </a>
           <a
             href="https://steamcommunity.com/id/MySteamProfileLink/"
@@ -208,7 +208,7 @@ export default function App() {
             className="herosection-a-icons"
             title="Instagram"
           >
-            <i class="fab fa-instagram-square mx-2"></i>
+            <i className="fab fa-instagram-square mx-2"></i>
           </a>
         </div>
       </section>

@@ -224,8 +224,15 @@ ion-icon {
 }
 .resume-right-section {
   padding-block: 2rem;
+  background: #f1f1f1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #f1f1f1;
 }
 .resume-left-section {
+  border: 1px solid #f1f1f1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 307px;
 }
 
