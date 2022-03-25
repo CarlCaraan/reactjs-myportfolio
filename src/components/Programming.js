@@ -70,6 +70,23 @@ export default function Programming() {
     <Fragment>
       <div className="container-fluid">
         <div className="row">
+          <h4 className={`${classes["resume-title"]}`}>Technology Stack</h4>
+          <p>Most used technologies.</p>
+          {imgValue.map((value, index) => {
+            return (
+              <div className="col-xl-2 m-2 col-sm text-center" key={value.id}>
+                <img
+                  className="shadow-sm rounded bg-light"
+                  src={value.src}
+                  alt={value.id}
+                />
+              </div>
+            );
+          })}
+        </div>
+        <br />
+        <hr />
+        <div className="row">
           <h4 className={`${classes["resume-title"]}`}>Technical Skills</h4>
           <p>A presentation of my use in each skill.</p>
           {value.map((value, index) => {
@@ -90,23 +107,6 @@ export default function Programming() {
                   </div>
                 </div>
               </Fragment>
-            );
-          })}
-        </div>
-        <br />
-        <hr />
-        <div className="row">
-          <h4 className={`${classes["resume-title"]}`}>Technology Stack</h4>
-          <p>Most used technologies.</p>
-          {imgValue.map((value, index) => {
-            return (
-              <div className="col-xl-2 m-2 col-sm text-center" key={value.id}>
-                <img
-                  className="shadow-sm rounded bg-light"
-                  src={value.src}
-                  alt={value.id}
-                />
-              </div>
             );
           })}
         </div>
