@@ -1,21 +1,66 @@
-.progress-some{
-    background: #d1d1d1;
-    height: 25px;
-    width: 200px;
+.progress-some {
+  background: #d1d1d1;
+  height: 25px;
+  width: 200px;
 }
-.progress-new{
-    background: #8e44ad;
-    height: 25px;
+.progress-new {
+  background: #8e44ad;
+  height: 25px;
 }
-.language{
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
-    text-transform: uppercase;
+.language {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
-.resume-title{
+.resume-title {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: var(--purple-color);
   letter-spacing: 2px;
 }
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1681 (xxl) */
+@media (max-width: 1681px) {
+}
+
+/* Devices under 1441px (xl) */
+@media (max-width: 1441px) {
+}
+
+/* Devices under 992px (lg) */
+@media (max-width: 991px) {
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767px) {
+  .technology-stack-wrapper {
+    margin-left: 0px!important;
+  }
+}
+
+/* Devices under 576px (sm) */
+@media (max-width: 575px) {
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

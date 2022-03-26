@@ -74,7 +74,7 @@ export default function Programming() {
           <p>Most used technologies.</p>
           {imgValue.map((value, index) => {
             return (
-              <div className="col-xl-2 m-2 col-sm text-center" key={value.id}>
+              <div className={`${classes['technology-stack-wrapper']} col-xl-2 col-sm m-2`} key={value.id}>
                 <img
                   className="shadow-sm rounded bg-light"
                   src={value.src}
