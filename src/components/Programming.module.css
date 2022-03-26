@@ -28,24 +28,24 @@
 
 /* Devices under 1441px (xl) */
 @media (max-width: 1441px) {
-
 }
 
 /* Devices under 992px (lg) */
 @media (max-width: 991px) {
   .technology-stack-wrapper {
-    margin-left: 0px!important;
+    margin-left: 0px !important;
   }
 }
 
 /* Devices under 768px (md) */
 @media (max-width: 767px) {
-
 }
 
 /* Devices under 576px (sm) */
 @media (max-width: 575px) {
-
+ .technology-stack-img {
+    width: 100%!important;
+  }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:

@@ -76,7 +76,7 @@ export default function Programming() {
             return (
               <div className={`${classes['technology-stack-wrapper']} col-xl-2 col-sm m-2`} key={value.id}>
                 <img
-                  className="shadow-sm rounded bg-light"
+                  className={`${classes['technology-stack-img']} shadow-sm rounded bg-light`}
                   src={value.src}
                   alt={value.id}
                 />
