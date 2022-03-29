@@ -23,14 +23,6 @@ export default function Projects() {
       },
       {
         id: 3,
-        src: "../../assets/images/projects/project3.png",
-        name: "School Management System",
-        tag1: "Laravel",
-        tag2: "MySQL",
-        tag3: "Bootstrap",
-      },
-      {
-        id: 4,
         src: "../../assets/images/projects/project4.png",
         name: "Online News Portal",
         tag1: "Laravel",
@@ -38,7 +30,7 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 5,
+        id: 4,
         src: "../../assets/images/projects/project5.png",
         name: "Content Management System",
         tag1: "Laravel",
@@ -46,7 +38,7 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 6,
+        id: 5,
         src: "../../assets/images/projects/project6.png",
         name: "Online Employment System",
         tag1: "Flask",
@@ -54,48 +46,16 @@ export default function Projects() {
         tag3: "SQL",
       },
       {
-        id: 7,
-        src: "../../assets/images/projects/project7.png",
-        name: "Expenses Tracker App",
-        tag1: "ReactJs",
-        tag2: "Javascript",
-        tag3: "CSS",
-      },
-      {
-        id: 8,
-        src: "../../assets/images/projects/project8.png",
-        name: "Goals Tracker App",
-        tag1: "ReactJs",
-        tag2: "Javascript",
-        tag3: "CSS",
-      },
-      {
-        id: 9,
-        src: "../../assets/images/projects/project9.png",
-        name: "Login System",
-        tag1: "ReactJs",
-        tag2: "Javascript",
-        tag3: "CSS",
-      },
-      {
-        id: 10,
-        src: "../../assets/images/projects/project10.png",
-        name: "User Tracker App",
-        tag1: "ReactJs",
-        tag2: "Javascript",
-        tag3: "CSS",
-      },
-      {
-        id: 11,
-        src: "../../assets/images/projects/project11.png",
-        name: "Food Ordering App",
-        tag1: "ReactJs",
-        tag2: "Javascript",
+        id: 6,
+        src: "../../assets/images/projects/project3.png",
+        name: "School Management System",
+        tag1: "Laravel",
+        tag2: "MySQL",
         tag3: "Bootstrap",
       },
       {
-        id: 12,
-        src: "../../assets/images/projects/project12.png",
+        id: 7,
+        src: "../../assets/images/projects/project7.png",
         name: "PWA ECommerce Website",
         tag1: "ReactJs",
         tag2: "Laravel",
@@ -107,7 +67,7 @@ export default function Projects() {
   return (
     <Fragment>
       <div className="container-fluid">
-        <h4 className={`${classes["resume-title"]}`}>Projects</h4>
+        <h4 className={`${classes["resume-title"]}`}>Recent Projects</h4>
         <p>
           Ever since I challenge myself to create a different project, I always
           enjoyed web development. Here are some of the projects I worked on
@@ -116,7 +76,7 @@ export default function Projects() {
         <br />
         <SRLWrapper>
           <div className="row">
-            {items.map((item) => (
+            {items.reverse().map((item) => (
               <div className="col-xl-4 mb-5" key={item.id}>
                 <h6 className="text-center section-subheading">{item.name}</h6>
                 <img
