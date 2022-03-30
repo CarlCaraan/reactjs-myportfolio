@@ -266,14 +266,15 @@ export default function App() {
 
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
               <span className="some-text-about-me">
-                Full Stack Web Developer with background knowledge mostly in
-                ReactJs, Laravel and Flask. Skilled in Front End technologies
-                such as Html, CSS, Javascript, React, Bootstrap and Sass, and
-                Back End technologies such as Php, Python NodeJs, and MySQL.
-                Learning a variety of scripting languages and APIs is one of my
-                strengths. I am also a hard worker and a team player. I am
-                looking for a challenging opportunity that will enable me to use
-                my skills and abilities to achieve a challenging goal.
+                A 22-year-old <strong>Full Stack Web Developer</strong> based in Laguna, Philippines
+                with background knowledge mostly in ReactJs, Laravel and Flask.
+                Skilled in Front End technologies such as Html, CSS, Javascript,
+                React, Bootstrap and Sass, and Back End technologies such as
+                Php, Python NodeJs, and MySQL. Learning a variety of scripting
+                languages and APIs is one of my strengths. I am also a hard
+                worker and a team player. I am looking for a challenging
+                opportunity that will enable me to use my skills and abilities
+                to achieve a challenging goal.
               </span>
               <br />
               <span className="few-highlights">
