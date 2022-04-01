@@ -117,7 +117,7 @@ export default function App() {
                 <span className="name-Im-text"> Caraan, Carl Aaron</span>
               </span>
               <span className="Im-text-enthusiastic mt-2">
-                Full Stack Web Developer <i className="fas fa-laptop-code"></i>
+                Aspiring Software Engineer <i className="fas fa-laptop-code"></i>
               </span>
               <span className="Im-text-email mt-2">bannedefused@gmail.com</span>
               <div className="d-flex flex-row justify-content-center mt-3">
