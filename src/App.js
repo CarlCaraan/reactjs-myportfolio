@@ -462,7 +462,7 @@ export default function App() {
             © 2022 Carl Caraan. All Rights Reserved.
           </small>
         </div>
-        <ScrollToTop smooth color="#8e44ad" top="1000" />
+        <ScrollToTop smooth color="#8e44ad" top="300" />
       </footer>
       {/* ========= End Footer Section ========= */}
     </div>
