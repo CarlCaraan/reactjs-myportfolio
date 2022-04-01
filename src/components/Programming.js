@@ -70,7 +70,7 @@ export default function Programming() {
     <Fragment>
       <div className="container-fluid">
         <div className="row">
-          <h4 className={`${classes["resume-title"]}`}>Technology Stack</h4>
+          <h4 className={`${classes["resume-title"]}`}>Tech Stack</h4>
           <p>Most used technologies.</p>
           {imgValue.map((value, index) => {
             return (
