@@ -51,15 +51,15 @@ export default function Programming() {
     },
     {
       id: 7,
-      src: "../../assets/images/svg/jquery.svg",
+      src: "../../assets/images/svg/firebase.svg",
     },
     {
       id: 8,
-      src: "../../assets/images/svg/github.svg",
+      src: "../../assets/images/svg/git.svg",
     },
     {
       id: 9,
-      src: "../../assets/images/svg/git.svg",
+      src: "../../assets/images/svg/jquery.svg",
     },
     {
       id: 10,
