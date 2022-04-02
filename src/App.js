@@ -82,7 +82,7 @@ export default function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#about">
-                  About Me
+                  About
                 </a>
               </li>
               <li className="nav-item">
@@ -93,11 +93,6 @@ export default function App() {
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#testimonial">
                   Testimonial
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#contact">
-                  Contact
                 </a>
               </li>
             </ul>
@@ -117,7 +112,8 @@ export default function App() {
                 <span className="name-Im-text"> Caraan, Carl Aaron</span>
               </span>
               <span className="Im-text-enthusiastic mt-2">
-                Aspiring Software Engineer <i className="fas fa-laptop-code"></i>
+                Aspiring Software Engineer{" "}
+                <i className="fas fa-laptop-code"></i>
               </span>
               <span className="Im-text-email mt-2">bannedefused@gmail.com</span>
               <div className="d-flex flex-row justify-content-center mt-3">
@@ -127,7 +123,7 @@ export default function App() {
                       className="btn btn-outline-success w-100 mb-2 herosection-button"
                       href="#contact"
                     >
-                      Hire Me
+                      <span className="px-5">Contact</span>
                     </a>
                   </div>
                   <div className="col-sm-6">
@@ -136,7 +132,7 @@ export default function App() {
                       className="btn btn-outline-success w-100 herosection-button"
                       download
                     >
-                      Resume
+                      <span className="px-5">Resume</span>
                     </a>
                   </div>
                 </div>
@@ -266,15 +262,15 @@ export default function App() {
 
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
               <span className="some-text-about-me">
-                A 22-year-old <strong>Full Stack Web Developer</strong> based in Laguna, Philippines
-                with background knowledge mostly in ReactJs, Laravel and Flask.
-                Skilled in Front End technologies such as Html, CSS, Javascript,
-                React, Bootstrap and Sass, and Back End technologies such as
-                Php, Python NodeJs, and MySQL. Learning a variety of scripting
-                languages and APIs is one of my strengths. I am also a hard
-                worker and a team player. I am looking for a challenging
-                opportunity that will enable me to use my skills and abilities
-                to achieve a challenging goal.
+                A 22-year-old <strong>Full Stack Web Developer</strong> based in
+                Laguna, Philippines with background knowledge mostly in ReactJs,
+                Laravel and Flask. Skilled in Front End technologies such as
+                Html, CSS, Javascript, React, Bootstrap and Sass, and Back End
+                technologies such as Php, Python NodeJs, and MySQL. Learning a
+                variety of scripting languages and APIs is one of my strengths.
+                I am also a hard worker and a team player. I am looking for a
+                challenging opportunity that will enable me to use my skills and
+                abilities to achieve a challenging goal.
               </span>
               <br />
               <span className="few-highlights">
