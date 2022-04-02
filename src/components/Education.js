@@ -74,7 +74,7 @@ export default function Education() {
               </span>
             </div>
             <span className={`${classes["year-passedout"]} badge bg-secondary`}>
-              2014 - 2017
+              2013 - 2017
             </span>
           </div>
           {/* End Timeline */}
