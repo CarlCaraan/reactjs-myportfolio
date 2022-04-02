@@ -132,7 +132,7 @@ export default function App() {
                   </div>
                   <div className="col-sm-6">
                     <a
-                      href="../assets/downloads/resume.pdf"
+                      href="../assets/downloads/CarlCaraan.pdf"
                       className="btn btn-outline-success w-100 herosection-button"
                       download
                     >
