@@ -47,7 +47,7 @@ export default function App() {
       {/* ========= Start Navigation Section ========= */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid px-5 py-4 navbar-wrapper">
-          <a className="brand-name navbar-brand" href="#">
+          <a className="brand-name navbar-brand" href="/">
             Dev_Caraan
           </a>
           <button
@@ -76,7 +76,7 @@ export default function App() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -130,7 +130,7 @@ export default function App() {
                     <a
                       href="../assets/downloads/CarlCaraan.pdf"
                       className="btn btn-outline-success w-100 herosection-button"
-                      download
+                      target="_blank"
                     >
                       <span className="px-5">Resume</span>
                     </a>
