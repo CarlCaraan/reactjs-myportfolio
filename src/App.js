@@ -150,7 +150,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-12">
+          <div className="col-lg-4 col-sm-12 disable-mobile">
             <div className="d-flex justify-content-center custom-div-outer-img text-center">
               <lottie-player
                 src="https://assets4.lottiefiles.com/datafiles/fab7172a9302d416bcdb8ac7e1c71123/data.json"
@@ -249,7 +249,7 @@ export default function App() {
               <ion-icon name="logo-npm"></ion-icon>
               <ion-icon name="logo-python"></ion-icon>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-12">
+            <div className="col-xl-6 col-lg-6 col-md-12 disable-mobile">
               <lottie-player
                 src="https://assets8.lottiefiles.com/private_files/lf30_nnctxuql.json"
                 background="transparent"

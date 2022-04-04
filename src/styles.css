@@ -381,6 +381,12 @@ ion-icon {
   .aboutme-right-section {
     padding-inline: 0px;
   }
+  .disable-mobile {
+    display: none;
+  }
+  .main-caption {
+    margin-top: 1rem;
+  }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
