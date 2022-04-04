@@ -425,7 +425,7 @@ export default function App() {
           <span className="brand-name text-white">
             Dev_Caraan <i class="fas fa-code fa-sm"></i>
           </span>
-          <p className="text-white mt-3 col-lg-6 col-md-8 col-sm-12 px-2 mx-auto">
+          <p className="text-white mt-3 col-xl-4 col-lg-8 col-md-8 col-sm-12 px-2 mx-auto">
             My name is Carl Aaron Caraan lived in Laguna, Philippines. A
             passionate coder currently pursuing a Bachelor of Science in
             Information Technology.
