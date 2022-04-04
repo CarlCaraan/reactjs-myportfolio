@@ -249,45 +249,49 @@ export default function App() {
               <ion-icon name="logo-npm"></ion-icon>
               <ion-icon name="logo-python"></ion-icon>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+            <div className="col-xl-6 col-lg-6 col-md-12">
               <lottie-player
-                src="https://assets7.lottiefiles.com/packages/lf20_e7y2w0zq.json"
+                src="https://assets8.lottiefiles.com/private_files/lf30_nnctxuql.json"
                 background="transparent"
                 speed="1"
-                style={{ width: "500px", height: "500px" }}
+                style={{ height: "500px", width: "100%" }}
                 loop
                 autoplay
               ></lottie-player>
             </div>
 
-            <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column py-5">
-              <span className="some-text-about-me">
-                A 22-year-old <strong>Full Stack Web Developer</strong> based in
-                Laguna, Philippines with background knowledge mostly in ReactJs,
-                Laravel and Flask. Skilled in Front End technologies such as
-                Html, CSS, Javascript, React, Bootstrap and Sass, and Back End
-                technologies such as Php, Python NodeJs, and MySQL. Learning a
-                variety of scripting languages and APIs is one of my strengths.
-                I am also a hard worker and a team player. I am looking for a
-                challenging opportunity that will enable me to use my skills and
-                abilities to achieve a challenging goal.
-              </span>
-              <br />
-              <span className="few-highlights">
-                <span className="few-text">SKILLS:</span>
-                <span className="few-list">
-                  <ul>
-                    <li>Strong knowledge in HTML, CSS and JavaScript.</li>
-                    <li>Veteran in PHP, Python, Javascript and Jquery.</li>
-                    <li>Bootstrap 5 and 4 and UX/UI Figma.</li>
-                    <li>Database: MySQL.</li>
-                    <li>Frameworks: Laravel, ReactJs and Flask.</li>
-                    <li>Environment and Tools: VS Code, Git and Github.</li>
-                    <li>Proficient in MS Word, Excel and Powerpoint.</li>
-                    <li>Able to work under pressure and in tight schedules.</li>
-                  </ul>
-                </span>
-              </span>
+            <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column py-5">
+              <div className="container">
+                <div className="some-text-about-me">
+                  A 22-year-old <strong>Full Stack Web Developer</strong> based
+                  in Laguna, Philippines with background knowledge mostly in
+                  ReactJs, Laravel and Flask. Skilled in Front End technologies
+                  such as Html, CSS, Javascript, React, Bootstrap and Sass, and
+                  Back End technologies such as Php, Python NodeJs, and MySQL.
+                  Learning a variety of scripting languages and APIs is one of
+                  my strengths. I am also a hard worker and a team player. I am
+                  looking for a challenging opportunity that will enable me to
+                  use my skills and abilities to achieve a challenging goal.
+                </div>
+
+                <div className="few-highlights mt-3">
+                  <span className="few-text">SKILLS:</span>
+                  <span className="few-list">
+                    <ul>
+                      <li>Strong knowledge in HTML, CSS and JavaScript.</li>
+                      <li>Veteran in PHP, Python, Javascript and Jquery.</li>
+                      <li>Bootstrap 5 and 4 and UX/UI Figma.</li>
+                      <li>Database: MySQL.</li>
+                      <li>Frameworks: Laravel, ReactJs and Flask.</li>
+                      <li>Environment and Tools: VS Code, Git and Github.</li>
+                      <li>Proficient in MS Word, Excel and Powerpoint.</li>
+                      <li>
+                        Able to work under pressure and in tight schedules.
+                      </li>
+                    </ul>
+                  </span>
+                </div>
+              </div>
             </div>
             <div className="text-center pb-5">
               <ion-icon name="logo-html5"></ion-icon>
