@@ -1,5 +1,30 @@
 .contact-button:hover {
-background-color: var(--purple-color);
-color: #fff;
-transition: all 0.3s ease;
+  background-color: var(--purple-color);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.coffee-heading {
+  margin-top: -3rem;
+  margin-left: -3.5rem;
+  position: absolute;
+  font-family: "Courgette";
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1441px (xl) */
+@media (max-width: 1399px) {
+  .coffee-wrapper {
+    margin-top: 3.6rem;
+  }
+}
+/* Devices under 992px (lg) */
+@media (max-width: 991px) {
+  .coffee-wrapper {
+    margin-bottom: 3rem;
+  }
+}
+/* Devices under 768px (md) */
+@media (max-width: 767px) {
+
 }

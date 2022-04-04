@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import classes from "./Contact.module.css";
+import CoffeeLottie from "./Animations/CoffeeLottie";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -65,77 +66,93 @@ export default function Contact() {
             <span className="section-heading" data-aos="fade-up">
               Contact Me
             </span>
-            <span className="section-subheading" data-aos="fade-up">Let's Stay in touch</span>
+            <span className="section-subheading" data-aos="fade-up">
+              Let's Stay in touch
+            </span>
           </div>
           <br />
           <br />
           <div className="data-animation" data-aos="fade-up">
             <div className="row">
-              <div className="col-md-6 mb-3">
-                <label htmlFor="name" className="form-label fw-bold">
-                  Name
-                </label>
-                <input
-                  value={name}
-                  onChange={(e) => {
-                    setName(e.target.value);
-                  }}
-                  className="form-control"
-                  id="name"
-                  type="text"
-                  placeholder="Enter your name"
-                  name="name"
-                  ref={nameInputRef}
-                />
+              <div className="col-lg-4">
+                <div className={`${classes["coffee-wrapper"]} container text-center`}>
+                  <CoffeeLottie />
+                  <span
+                    className={`${classes["coffee-heading"]}`}
+                  >
+                    Buy me a Coffee.
+                  </span>
+                </div>
               </div>
+              <div className="col-lg-8">
+                <div className="row pt-2">
+                  <div className="col-md-6 mb-3">
+                    <label htmlFor="name" className="form-label fw-bold">
+                      Name
+                    </label>
+                    <input
+                      value={name}
+                      onChange={(e) => {
+                        setName(e.target.value);
+                      }}
+                      className="form-control"
+                      id="name"
+                      type="text"
+                      placeholder="Enter your name"
+                      name="name"
+                      ref={nameInputRef}
+                    />
+                  </div>
 
-              <div className="col-md-6">
-                <label htmlFor="email" className="form-label fw-bold">
-                  Email
-                </label>
+                  <div className="col-md-6">
+                    <label htmlFor="email" className="form-label fw-bold">
+                      Email
+                    </label>
+                    <input
+                      value={email}
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                      }}
+                      className="form-control"
+                      id="email"
+                      type="text"
+                      placeholder="Enter your email"
+                      name="email"
+                      ref={emailInputRef}
+                    />
+                  </div>
+                </div>
+                <br />
+                <div className="row">
+                  <div className="col-12">
+                    <label htmlFor="message" className="form-label fw-bold">
+                      Message
+                    </label>
+                    <textarea
+                      value={message}
+                      onChange={(e) => {
+                        setMessage(e.target.value);
+                      }}
+                      className="form-control"
+                      id=""
+                      cols="30"
+                      rows="3"
+                      placeholder="Enter your message"
+                      message="message"
+                      ref={messageInputRef}
+                    ></textarea>
+                  </div>
+                </div>
                 <input
-                  value={email}
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                  }}
-                  className="form-control"
-                  id="email"
-                  type="text"
-                  placeholder="Enter your email"
-                  name="email"
-                  ref={emailInputRef}
+                  type="submit"
+                  className={`${classes["contact-button"]} mt-2 px-2 rounded float-end`}
+                  value="Submit"
                 />
+                <br />
+                <br />
+                {error && <small title="error.title">{error.title}</small>}
               </div>
             </div>
-            <br />
-            <div className="row">
-              <div className="col-12">
-                <label htmlFor="message" className="form-label fw-bold">
-                  Message
-                </label>
-                <textarea
-                  value={message}
-                  onChange={(e) => {
-                    setMessage(e.target.value);
-                  }}
-                  className="form-control"
-                  id=""
-                  cols="30"
-                  rows="3"
-                  placeholder="Enter your message"
-                  message="message"
-                  ref={messageInputRef}
-                ></textarea>
-              </div>
-            </div>
-            <input
-              type="submit"
-              className={`${classes["contact-button"]} mt-2 px-2 rounded`}
-              value="Submit"
-            />
-            <br />
-            <br />
-            {error && <small title="error.title">{error.title}</small>}
           </div>
         </form>
       </div>

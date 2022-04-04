@@ -11,7 +11,7 @@ import ScrollToTop from "react-scroll-to-top";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import CoffeeLottie from "./components/Animations/CoffieLottie";
+import CubeLottie from "./components/Animations/CubeLottie";
 import ReactLottie from "./components/Animations/ReactLottie";
 
 export default function App() {
@@ -246,7 +246,7 @@ export default function App() {
               <ion-icon name="logo-python"></ion-icon>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12">
-              <CoffeeLottie />
+              <CubeLottie />
             </div>
 
             <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column py-5">
@@ -423,7 +423,7 @@ export default function App() {
       <footer>
         <div className="bg-dark pt-5 pb-4 text-center">
           <span className="brand-name text-white">
-            Dev_Caraan <i class="fas fa-code fa-sm"></i>
+            Dev_Caraan <i className="fas fa-code fa-sm"></i>
           </span>
           <p className="text-white mt-3 col-xxl-4 col-xl-6 col-lg-8 col-md-8 col-sm-12 px-2 mx-auto">
             My name is Carl Aaron Caraan lived in Laguna, Philippines. A
