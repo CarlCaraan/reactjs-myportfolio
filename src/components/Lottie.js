@@ -33,7 +33,7 @@ class Lottie extends React.Component {
           src="https://assets6.lottiefiles.com/private_files/lf30_fpdvsz3i.json"
           background="transparent"
           speed="1"
-          style={{ height: "85%", width: "100%" }}
+          style={{ height: "100%", width: "100%" }}
           loop
           autoplay
         ></lottie-player>
