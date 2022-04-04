@@ -18,7 +18,7 @@ class CoffeeLottie extends React.Component {
           {
             visibility: [0, 1],
             type: "seek",
-            frames: [0, 100],
+            frames: [0, 90],
           },
         ],
       });
@@ -30,7 +30,7 @@ class CoffeeLottie extends React.Component {
         <lottie-player
           ref={this.myRef} // 2. set the reference for the player
           id="coffeeLottie"
-          src="https://assets6.lottiefiles.com/private_files/lf30_fpdvsz3i.json"
+          src="https://assets2.lottiefiles.com/packages/lf20_kjf5b5ih.json"
           background="transparent"
           speed="1"
           style={{ height: "100%", width: "100%" }}
