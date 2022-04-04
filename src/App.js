@@ -254,14 +254,14 @@ export default function App() {
                 src="https://assets8.lottiefiles.com/private_files/lf30_nnctxuql.json"
                 background="transparent"
                 speed="1"
-                style={{ height: "500px", width: "100%" }}
+                style={{ height: "85%", width: "100%" }}
                 loop
                 autoplay
               ></lottie-player>
             </div>
 
             <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column py-5">
-              <div className="container">
+              <div className="container aboutme-right-section">
                 <div className="some-text-about-me">
                   A 22-year-old <strong>Full Stack Web Developer</strong> based
                   in Laguna, Philippines with background knowledge mostly in

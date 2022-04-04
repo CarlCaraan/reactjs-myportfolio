@@ -378,6 +378,9 @@ ion-icon {
   .navbar-wrapper {
     padding-block: 1.5rem !important;
   }
+  .aboutme-right-section {
+    padding-inline: 0px;
+  }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
