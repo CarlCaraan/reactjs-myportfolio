@@ -143,7 +143,7 @@ export default function App() {
           </div>
 
           <div className="col-lg-4 col-sm-12">
-            <div className="d-flex justify-content-center custom-div-outer-img text-center pt-5">
+            <div className="d-flex justify-content-center text-center pt-5">
               <img
                 className="img-fluid custom-avatar shadow-sm img-thumbnail"
                 src={avatar}
