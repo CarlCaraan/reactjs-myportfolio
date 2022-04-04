@@ -11,7 +11,8 @@ import ScrollToTop from "react-scroll-to-top";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Lottie from "./components/Lottie";
+import CoffeeLottie from "./components/Animations/CoffieLottie";
+import ReactLottie from "./components/Animations/ReactLottie";
 
 export default function App() {
   const [education, setEducation] = useState(true);
@@ -153,13 +154,7 @@ export default function App() {
 
           <div className="col-lg-4 col-sm-12 disable-mobile">
             <div className="d-flex justify-content-center custom-div-outer-img text-center">
-              <lottie-player
-                src="https://assets4.lottiefiles.com/datafiles/fab7172a9302d416bcdb8ac7e1c71123/data.json"
-                background="transparent"
-                speed="1"
-                style={{ width: "300px", height: "300px" }}
-                autoplay
-              ></lottie-player>
+              <ReactLottie />
             </div>
           </div>
         </div>
@@ -251,7 +246,7 @@ export default function App() {
               <ion-icon name="logo-python"></ion-icon>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12">
-              <Lottie />
+              <CoffeeLottie />
             </div>
 
             <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column py-5">

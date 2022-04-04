@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 // import "@lottiefiles/lottie-player";
 import { create } from "@lottiefiles/lottie-interactivity";
 
-class Lottie extends React.Component {
+class CoffeeLottie extends React.Component {
   constructor(props) {
     super(props);
     this.myRef = React.createRef(); // 1. create a reference for the lottie player
@@ -13,7 +13,7 @@ class Lottie extends React.Component {
       // 4. configure the interactivity library
       create({
         mode: "scroll",
-        player: "#firstLottie",
+        player: "#coffeeLottie",
         actions: [
           {
             visibility: [0, 1],
@@ -29,7 +29,7 @@ class Lottie extends React.Component {
       <Fragment>
         <lottie-player
           ref={this.myRef} // 2. set the reference for the player
-          id="firstLottie"
+          id="coffeeLottie"
           src="https://assets6.lottiefiles.com/private_files/lf30_fpdvsz3i.json"
           background="transparent"
           speed="1"
@@ -42,4 +42,4 @@ class Lottie extends React.Component {
   }
 }
 
-export default Lottie;
+export default CoffeeLottie;
