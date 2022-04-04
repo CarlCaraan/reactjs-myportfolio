@@ -421,7 +421,7 @@ export default function App() {
 
       {/* ========= Start Footer Section ========= */}
       <footer>
-        <div className="bg-dark pt-5 pb-5 text-center">
+        <div className="bg-dark pt-5 pb-4 text-center">
           <span className="brand-name text-white">
             Dev_Caraan <i class="fas fa-code fa-sm"></i>
           </span>
@@ -434,7 +434,7 @@ export default function App() {
             Powered by <i className="fab fa-react"></i> ReactJs.
           </small>
 
-          <div className="mt-3">
+          <div className="mt-3" data-aos="flip-down">
             <a href="https://github.com/CarlCaraan" target="_blank">
               <i className="fab fa-github fa-2x custom-icons"></i>
             </a>
