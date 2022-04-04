@@ -250,7 +250,7 @@ export default function App() {
               <ion-icon name="logo-npm"></ion-icon>
               <ion-icon name="logo-python"></ion-icon>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-12 disable-mobile">
+            <div className="col-xl-6 col-lg-6 col-md-12">
               <Lottie />
             </div>
 
