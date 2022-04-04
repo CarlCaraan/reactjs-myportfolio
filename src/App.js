@@ -11,6 +11,7 @@ import ScrollToTop from "react-scroll-to-top";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Lottie from "./components/Lottie";
 
 export default function App() {
   const [education, setEducation] = useState(true);
@@ -250,14 +251,7 @@ export default function App() {
               <ion-icon name="logo-python"></ion-icon>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-12 disable-mobile">
-              <lottie-player
-                src="https://assets8.lottiefiles.com/private_files/lf30_nnctxuql.json"
-                background="transparent"
-                speed="1"
-                style={{ height: "85%", width: "100%" }}
-                loop
-                autoplay
-              ></lottie-player>
+              <Lottie />
             </div>
 
             <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column py-5">
