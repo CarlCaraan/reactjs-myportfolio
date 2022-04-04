@@ -20,7 +20,7 @@ class ReactLottie extends React.Component {
             transition: "click",
           },
           {
-						path: "https://assets1.lottiefiles.com/packages/lf20_3vnbebdl.json",
+            path: "https://assets1.lottiefiles.com/packages/lf20_3vnbebdl.json",
             state: "autoplay",
             transition: "click",
           },
@@ -31,15 +31,17 @@ class ReactLottie extends React.Component {
   render() {
     return (
       <Fragment>
-        <lottie-player
-          ref={this.myRef} // 2. set the reference for the player
-          id="reactLottie"
-          src="https://assets1.lottiefiles.com/packages/lf20_b23ll34c.json"
-          background="transparent"
-          speed="1"
-          style={{ width: "300px", height: "300px" }}
-          autoplay
-        ></lottie-player>
+        <span className="custom-div-outer-img">
+          <lottie-player
+            ref={this.myRef} // 2. set the reference for the player
+            id="reactLottie"
+            src="https://assets1.lottiefiles.com/packages/lf20_b23ll34c.json"
+            background="transparent"
+            speed="1"
+            style={{ width: "300px", height: "300px" }}
+            autoplay
+          ></lottie-player>
+        </span>
       </Fragment>
     );
   }

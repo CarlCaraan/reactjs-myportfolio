@@ -153,7 +153,7 @@ export default function App() {
           </div>
 
           <div className="col-lg-4 col-sm-12 disable-mobile">
-            <div className="d-flex justify-content-center custom-div-outer-img text-center">
+            <div className="d-flex justify-content-center">
               <ReactLottie />
             </div>
           </div>
