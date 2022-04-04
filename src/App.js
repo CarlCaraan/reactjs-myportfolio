@@ -422,7 +422,9 @@ export default function App() {
       {/* ========= Start Footer Section ========= */}
       <footer>
         <div className="bg-dark pt-5 pb-5 text-center">
-          <span className="brand-name text-white"> Dev_Caraan</span>
+          <span className="brand-name text-white">
+            Dev_Caraan <i class="fas fa-code fa-sm"></i>
+          </span>
           <p className="text-white mt-3 col-lg-4 col-md-4 col-sm-3 mx-auto">
             My name is Carl Aaron Caraan lived in Laguna, Philippines. A
             passionate coder currently pursuing a Bachelor of Science in
