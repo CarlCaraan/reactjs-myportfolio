@@ -146,21 +146,13 @@ a.top-scroll:hover {
   width: 100%;
 }
 /* End Custom Button */
-.herosection {
-  background: linear-gradient(
-    -9,
-    var(--primary-app-color),
-    var(--secondary-app-color)
-  );
-}
 .main-caption {
   font-family: "Courgette";
   text-shadow: 1px 1px 1px;
   color: #2c3e50;
   opacity: 0.5;
 }
-
-.herosection-2 {
+.herosection-body {
   padding-top: 60px;
 }
 .Im-text-section {
@@ -353,7 +345,7 @@ ion-icon {
   .herosection {
     padding-block: 0;
   }
-  .herosection-2 {
+  .herosection-body {
     padding-top: 10px;
   }
   .navbar-wrapper {

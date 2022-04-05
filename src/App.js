@@ -105,8 +105,8 @@ export default function App() {
       {/* ========= End Navigation Section ========= */}
 
       {/* ========= Start Hero Section ========= */}
-      <section className="herosection px-10 py-2">
-        <div className="herosection-2 row justify-content-center">
+      <section className="herosection py-2">
+        <div className="herosection-body row justify-content-center">
           <div className="col-lg-4 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <span className="Im-text">
