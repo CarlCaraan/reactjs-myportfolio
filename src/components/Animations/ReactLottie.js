@@ -31,7 +31,7 @@ class ReactLottie extends React.Component {
   render() {
     return (
       <Fragment>
-        <span className="custom-div-outer-img">
+        <a href="#" title="clickme!">
           <lottie-player
             ref={this.myRef} // 2. set the reference for the player
             id="reactLottie"
@@ -41,7 +41,7 @@ class ReactLottie extends React.Component {
             style={{ width: "300px", height: "300px" }}
             autoplay
           ></lottie-player>
-        </span>
+        </a>
       </Fragment>
     );
   }
