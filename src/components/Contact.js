@@ -150,7 +150,7 @@ export default function Contact() {
                 />
                 <br />
                 <br />
-                {error && <small title="error.title">{error.title}</small>}
+                {error && <small className="float-end" title="error.title">{error.title}</small>}
               </div>
             </div>
           </div>
