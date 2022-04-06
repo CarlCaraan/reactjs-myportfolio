@@ -31,17 +31,17 @@ class ReactLottie extends React.Component {
   render() {
     return (
       <Fragment>
-        <a href="#" title="clickme!">
+        <span title="clickme!">
           <lottie-player
             ref={this.myRef} // 2. set the reference for the player
             id="reactLottie"
             src="https://assets1.lottiefiles.com/packages/lf20_b23ll34c.json"
             background="transparent"
             speed="1"
-            style={{ width: "300px", height: "300px" }}
+            style={{ width: "300px", height: "300px", cursor: "pointer" }}
             autoplay
           ></lottie-player>
-        </a>
+        </span>
       </Fragment>
     );
   }
