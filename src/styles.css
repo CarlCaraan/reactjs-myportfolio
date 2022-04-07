@@ -109,9 +109,9 @@ a.top-scroll:hover {
 .herosection-button:hover {
   background: transparent;
   box-shadow: none;
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
 .herosection-button:hover:before {
   height: 100%;
@@ -186,16 +186,25 @@ a.top-scroll:hover {
 .custom-avatar {
   border-radius: 50%;
 }
+.herosection-social-icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.herosection-social-icons li {
+  display: inline-block;
+  transition: 0.5s;
+}
+.herosection-social-icons li:hover {
+  transform: translateY(-10px);
+}
 .herosection-a-icons {
-  text-decoration: none;
   color: #2c3e50;
 }
 .herosection-a-icons:hover {
   color: #2c3e50;
   opacity: 0.8;
-  border-radius: 5px;
-  padding-top: 1px;
-  transition: all 0.3s linear;
+  transition: all 0.4s linear;
 }
 
 /* ========= ABOUT SECTION ========= */

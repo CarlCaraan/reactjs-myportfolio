@@ -65,6 +65,7 @@ const LandingPage = () => {
                 <i className="fas fa-laptop-code"></i>
               </span>
               <span className="Im-text-email mt-2">bannedefused@gmail.com</span>
+
               <div className="d-flex flex-row justify-content-center mt-3">
                 <div className="row">
                   <div className="col-sm-6">
@@ -108,47 +109,54 @@ const LandingPage = () => {
         <h1 className="text-center main-caption" data-aos="fade">
           &lt;Let's Build Something Epic/&gt;
         </h1>
-        <div className="text-center fa-2x mt-3">
-          <a
-            href="https://www.facebook.com/caraancarl/"
-            target="_blank"
-            className="herosection-a-icons"
-            title="Facebook"
-          >
-            <i className="fab fa-facebook mx-2"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/carl-aaron-caraan-b862aa220/"
-            target="_blank"
-            className="herosection-a-icons"
-            title="Linkedin"
-          >
-            <i className="fab fa-linkedin mx-2"></i>
-          </a>
-          <a
-            href="https://steamcommunity.com/id/MySteamProfileLink/"
-            target="_blank"
-            className="herosection-a-icons"
-            title="Steam"
-          >
-            <i className="fab fa-steam mx-2"></i>
-          </a>
-          <a
-            href="https://github.com/CarlCaraan"
-            target="_blank"
-            className="herosection-a-icons"
-            title="Github"
-          >
-            <i className="fab fa-github mx-2"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/dev_plousious/"
-            target="_blank"
-            className="herosection-a-icons"
-            title="Instagram"
-          >
-            <i className="fab fa-instagram-square mx-2"></i>
-          </a>
+        <div className="row">
+          <ul className="fa-2x mt-3 herosection-social-icons">
+            <li>
+              <a
+                href="https://www.facebook.com/caraancarl/"
+                target="_blank"
+                className="herosection-a-icons"
+              >
+                <i className="fab fa-facebook mx-2"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/carl-aaron-caraan-b862aa220/"
+                target="_blank"
+                className="herosection-a-icons"
+              >
+                <i className="fab fa-linkedin mx-2"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://steamcommunity.com/id/MySteamProfileLink/"
+                target="_blank"
+                className="herosection-a-icons"
+              >
+                <i className="fab fa-steam mx-2"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/CarlCaraan"
+                target="_blank"
+                className="herosection-a-icons"
+              >
+                <i className="fab fa-github mx-2"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/dev_plousious/"
+                target="_blank"
+                className="herosection-a-icons"
+              >
+                <i className="fab fa-instagram-square mx-2"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
 
