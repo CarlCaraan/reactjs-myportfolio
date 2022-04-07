@@ -110,7 +110,7 @@ const LandingPage = () => {
           &lt;Let's Build Something Epic/&gt;
         </h1>
         <div className="row">
-          <ul className="fa-2x mt-3 herosection-social-icons">
+          <ul className="fa-2x mt-3 mb-0 herosection-social-icons">
             <li>
               <a
                 href="https://www.facebook.com/caraancarl/"
