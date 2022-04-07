@@ -197,14 +197,13 @@ a.top-scroll:hover {
 }
 .herosection-social-icons li:hover {
   transform: translateY(-10px);
+  opacity: 0.8;
 }
 .herosection-a-icons {
   color: #2c3e50;
 }
 .herosection-a-icons:hover {
   color: #2c3e50;
-  opacity: 0.8;
-  transition: all 0.4s linear;
 }
 
 /* ========= ABOUT SECTION ========= */
