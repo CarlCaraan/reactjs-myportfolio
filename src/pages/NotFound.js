@@ -19,7 +19,9 @@ const NotFound = () => {
       <div className="container d-flex flex-row justify-content-center">
         <NotFoundLottie />
       </div>
-      <MainFooter />
+      <div className="custom-footer">
+        <MainFooter />
+      </div>
     </Fragment>
   );
 };
