@@ -17,7 +17,6 @@ class NotFoundLottie extends React.Component {
         actions: [
           {
             state: "autoplay",
-            frames: [0, 64],
           },
         ],
       });
@@ -29,10 +28,11 @@ class NotFoundLottie extends React.Component {
         <lottie-player
           ref={this.myRef} // 2. set the reference for the player
           id="notfoundLottie"
-          src="https://assets2.lottiefiles.com/packages/lf20_dc8o2lwo.json"
+          src="https://assets4.lottiefiles.com/packages/lf20_mszxrzld.json"
           background="transparent"
           speed="1"
           style={{ height: "100%", width: "100%" }}
+          loop
           autoplay
         ></lottie-player>
       </Fragment>
