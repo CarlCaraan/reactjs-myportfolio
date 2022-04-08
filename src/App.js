@@ -1,9 +1,15 @@
+import React, { Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
-import NotFound from "./pages/NotFound";
+import LoadingSpinner from "./components/UI/LoadingSpinner";
+// import LandingPage from "./pages/LandingPage";
+// import NotFound from "./pages/NotFound";
+
+const LandingPage = React.lazy(() => import("./pages/LandingPage"));
+const NotFound = React.lazy(() => import("./pages/NotFound"));
 
 function App() {
   return (
+    <Suspense fallback={<LoadingSpinner />}>
       <Switch>
         <Route path="/" exact>
           <Redirect to="/ " />
@@ -15,8 +21,8 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+    </Suspense>
   );
 }
 
 export default App;
-

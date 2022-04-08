@@ -1,5 +1,3 @@
-import MainNavigation from "../components/layout/MainNavigation";
-import MainFooter from "../components/layout/MainFooter";
 import { Fragment, useEffect } from "react";
 import NotFoundLottie from "../components/Animations/NotFoundLottie";
 import Aos from "aos";
@@ -15,7 +13,6 @@ const NotFound = () => {
   }, []);
   return (
     <Fragment>
-      <MainNavigation />
       <div className="container d-flex flex-row justify-content-center">
         <NotFoundLottie />
       </div>
