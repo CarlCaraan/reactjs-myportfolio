@@ -4,8 +4,17 @@ import LoadingSpinner from "./components/UI/LoadingSpinner";
 // import LandingPage from "./pages/LandingPage";
 // import NotFound from "./pages/NotFound";
 
-const LandingPage = React.lazy(() => import("./pages/LandingPage"));
-const NotFound = React.lazy(() => import("./pages/NotFound"));
+const LandingPage = React.lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import("./pages/LandingPage")), 3000);
+  });
+});
+
+const NotFound = React.lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import("./pages/NotFound")), 3000);
+  });
+});
 
 function App() {
   return (
