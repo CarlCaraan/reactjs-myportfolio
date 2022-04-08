@@ -6,13 +6,13 @@ import LoadingSpinner from "./components/UI/LoadingSpinner";
 
 const LandingPage = React.lazy(() => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(import("./pages/LandingPage")), 3000);
+    setTimeout(() => resolve(import("./pages/LandingPage")), 2500);
   });
 });
 
 const NotFound = React.lazy(() => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(import("./pages/NotFound")), 3000);
+    setTimeout(() => resolve(import("./pages/NotFound")), 2500);
   });
 });
 
