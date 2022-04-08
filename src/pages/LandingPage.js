@@ -14,6 +14,7 @@ import CubeLottie from "../components/Animations/CubeLottie";
 import ReactLottie from "../components/Animations/ReactLottie";
 import MainNavigation from "../components/layout/MainNavigation";
 import MainFooter from "../components/layout/MainFooter";
+import {Link} from "react-scroll";
 
 const LandingPage = () => {
   const [education, setEducation] = useState(true);
@@ -69,12 +70,13 @@ const LandingPage = () => {
               <div className="d-flex flex-row justify-content-center mt-3">
                 <div className="row">
                   <div className="col-sm-6">
-                    <a
+                    <Link
                       className="btn btn-outline-success w-100 mb-2 herosection-button"
-                      href="#contact"
+                      to="contact"
+                      offset={50}
                     >
                       <span className="px-5">Contact</span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-sm-6">
                     <a
@@ -175,7 +177,7 @@ const LandingPage = () => {
 
       {/* ========= Start About Section ========= */}
       <section
-        className="about-me-section aboutme-inside pb-5 offset"
+        className="about-me-section aboutme-inside pb-5"
         id="about"
       >
         <div className="d-flex flex-column">
@@ -255,7 +257,7 @@ const LandingPage = () => {
 
       {/* ========= Start Resume Section ========= */}
       <section
-        className="resume-outer-section d-flex flex-column offset"
+        className="resume-outer-section d-flex flex-column"
         id="resume"
       >
         <span className="section-heading" data-aos="fade-up">
@@ -349,7 +351,7 @@ const LandingPage = () => {
       {/* ========= End Resume Section ========= */}
 
       {/* ========= Start Testimonial Section ========= */}
-      <section className="text-center pb-5 offset" id="testimonial">
+      <section className="text-center pb-5" id="testimonial">
         {/* Start Background Image */}
         <div className="testimonial-bg-image"></div>
         {/* End Background Image */}
@@ -367,7 +369,7 @@ const LandingPage = () => {
       {/* ========= End Testimonial Section ========= */}
 
       {/* ========= Start Contact Section ========= */}
-      <section className="contact-me-part offset" id="contact">
+      <section className="contact-me-part" id="contact">
         <div className="container">
           <Contact />
         </div>

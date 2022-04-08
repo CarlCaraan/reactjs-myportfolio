@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import {Link} from "react-scroll";
 
 const MainNavigation = () => {
   return (
@@ -39,19 +40,19 @@ const MainNavigation = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#about">
+                <Link className="nav-link" to="about" offset={-50}>
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#resume">
+                <Link className="nav-link" to="resume" offset={60}>
                   Resume
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#testimonial">
+                <Link className="nav-link" to="testimonial">
                   Testimonial
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
