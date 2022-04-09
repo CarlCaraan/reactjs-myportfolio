@@ -12,8 +12,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import CubeLottie from "../components/Animations/CubeLottie";
 import ReactLottie from "../components/Animations/ReactLottie";
-import MainNavigation from "../components/layout/MainNavigation";
-import MainFooter from "../components/layout/MainFooter";
+import MainNavigation from "../components/Layout/MainNavigation";
+import MainFooter from "../components/Layout/MainFooter";
 import {Link} from "react-scroll";
 
 const LandingPage = () => {
