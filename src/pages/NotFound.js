@@ -1,3 +1,4 @@
+import "../styles.css";
 import { Fragment, useEffect } from "react";
 import NotFoundLottie from "../components/Animations/NotFoundLottie";
 import Aos from "aos";
@@ -13,7 +14,7 @@ const NotFound = () => {
   }, []);
   return (
     <Fragment>
-      <div className="container d-flex flex-row justify-content-center">
+      <div className="centered">
         <NotFoundLottie />
       </div>
     </Fragment>
