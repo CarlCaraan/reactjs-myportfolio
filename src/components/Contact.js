@@ -145,7 +145,7 @@ export default function Contact() {
                 </div>
                 <input
                   type="submit"
-                  className={`${classes["contact-button"]} mt-2 px-2 rounded float-end`}
+                  className={`${classes["contact-button"]} mt-2 px-2 rounded float-end btn btn btn-light border-0`}
                   value="Submit"
                 />
                 <br />
