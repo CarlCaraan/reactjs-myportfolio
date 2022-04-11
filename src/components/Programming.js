@@ -27,31 +27,31 @@ export default function Programming() {
   const imgValue = [
     {
       id: 1,
-      src: "../../assets/images/svg/reactjs.svg",
-    },
-    {
-      id: 2,
-      src: "../../assets/images/svg/nodejs.svg",
-    },
-    {
-      id: 3,
-      src: "../../assets/images/svg/bootstrap.svg",
-    },
-    {
-      id: 4,
-      src: "../../assets/images/svg/laravel.svg",
-    },
-    {
-      id: 5,
-      src: "../../assets/images/svg/mysql.svg",
-    },
-    {
-      id: 6,
       src: "../../assets/images/svg/mongodb.svg",
     },
     {
+      id: 2,
+      src: "../../assets/images/svg/expressjs.svg",
+    },
+    {
+      id: 3,
+      src: "../../assets/images/svg/reactjs.svg",
+    },
+    {
+      id: 4,
+      src: "../../assets/images/svg/nodejs.svg",
+    },
+    {
+      id: 5,
+      src: "../../assets/images/svg/bootstrap.svg",
+    },
+    {
+      id: 6,
+      src: "../../assets/images/svg/laravel.svg",
+    },
+    {
       id: 7,
-      src: "../../assets/images/svg/firebase.svg",
+      src: "../../assets/images/svg/mysql.svg",
     },
     {
       id: 8,
@@ -64,6 +64,14 @@ export default function Programming() {
     {
       id: 10,
       src: "../../assets/images/svg/figma.svg",
+    },
+    {
+      id: 10,
+      src: "../../assets/images/svg/flask.svg",
+    },
+    {
+      id: 10,
+      src: "../../assets/images/svg/firebase.svg",
     },
   ];
   return (
