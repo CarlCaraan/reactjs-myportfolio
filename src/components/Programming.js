@@ -43,11 +43,11 @@ export default function Programming() {
     },
     {
       id: 5,
-      src: "../../assets/images/svg/flask.svg",
+      src: "../../assets/images/svg/mysql.svg",
     },
     {
       id: 6,
-      src: "../../assets/images/svg/mysql.svg",
+      src: "../../assets/images/svg/mongodb.svg",
     },
     {
       id: 7,

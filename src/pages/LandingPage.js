@@ -14,7 +14,7 @@ import CubeLottie from "../components/Animations/CubeLottie";
 import ReactLottie from "../components/Animations/ReactLottie";
 import MainNavigation from "../components/layout/MainNavigation";
 import MainFooter from "../components/layout/MainFooter";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const LandingPage = () => {
   const [education, setEducation] = useState(true);
@@ -176,10 +176,7 @@ const LandingPage = () => {
       {/* ========= End Hero Section ========= */}
 
       {/* ========= Start About Section ========= */}
-      <section
-        className="about-me-section aboutme-inside pb-5"
-        id="about"
-      >
+      <section className="about-me-section aboutme-inside pb-5" id="about">
         <div className="d-flex flex-column">
           <span className="section-heading" data-aos="fade-up">
             About me
@@ -211,11 +208,11 @@ const LandingPage = () => {
                 <div className="some-text-about-me">
                   A 22-year-old <strong>Full Stack Web Developer</strong> based
                   in Laguna, Philippines with background knowledge mostly in
-                  ReactJs, Laravel and Flask. Skilled in Front End technologies
-                  such as Html, CSS, Javascript, React, Bootstrap and Sass, and
-                  Back End technologies such as Php, Python NodeJs, and MySQL.
-                  Learning a variety of scripting languages and APIs is one of
-                  my strengths. I am also a hard worker and a team player. I am
+                  React and Laravel. Skilled in Front End technologies such as
+                  Html, CSS, Javascript, Bootstrap and Sass, and Back End
+                  technologies such as Php, Python, NodeJs, and MySQL. Learning
+                  a variety of scripting languages and APIs is one of my
+                  strengths. I am also a hard worker and a team player. I am
                   looking for a challenging opportunity that will enable me to
                   use my skills and abilities to achieve a challenging goal.
                 </div>
@@ -228,7 +225,7 @@ const LandingPage = () => {
                       <li>Veteran in PHP, Python, Javascript and Jquery.</li>
                       <li>Bootstrap 5 and 4 and UX/UI Figma.</li>
                       <li>Database: MySQL.</li>
-                      <li>Frameworks: Laravel, ReactJs and Flask.</li>
+                      <li>Frameworks: Laravel and React.</li>
                       <li>Environment and Tools: VS Code, Git and Github.</li>
                       <li>Proficient in MS Word, Excel and Powerpoint.</li>
                       <li>
@@ -256,10 +253,7 @@ const LandingPage = () => {
       {/* ========= End About Section ========= */}
 
       {/* ========= Start Resume Section ========= */}
-      <section
-        className="resume-outer-section d-flex flex-column"
-        id="resume"
-      >
+      <section className="resume-outer-section d-flex flex-column" id="resume">
         <span className="section-heading" data-aos="fade-up">
           Resume
         </span>
