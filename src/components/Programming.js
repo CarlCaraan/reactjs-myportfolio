@@ -66,11 +66,11 @@ export default function Programming() {
       src: "../../assets/images/svg/figma.svg",
     },
     {
-      id: 10,
+      id: 11,
       src: "../../assets/images/svg/flask.svg",
     },
     {
-      id: 10,
+      id: 12,
       src: "../../assets/images/svg/firebase.svg",
     },
   ];
