@@ -24,7 +24,7 @@ export default function Projects() {
       {
         id: 3,
         src: "../../assets/images/projects/project4.png",
-        name: "Online News Portal",
+        name: "CNM - Online News Portal",
         tag1: "Laravel",
         tag2: "MySQL",
         tag3: "Bootstrap",
@@ -40,7 +40,7 @@ export default function Projects() {
       {
         id: 5,
         src: "../../assets/images/projects/project6.png",
-        name: "Online Employment System",
+        name: "Manster Employment System",
         tag1: "Flask",
         tag2: "Python",
         tag3: "SQL",
@@ -56,7 +56,7 @@ export default function Projects() {
       {
         id: 7,
         src: "../../assets/images/projects/project7.png",
-        name: "PWA ECommerce Website",
+        name: "Lazapee ECommerce Website",
         tag1: "ReactJs",
         tag2: "Laravel",
         tag3: "RestAPI",
