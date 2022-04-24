@@ -19,7 +19,7 @@ export default function Projects() {
         name: "Water Management System",
         tag1: "Flask",
         tag2: "Bootstrap",
-        tag3: "SQLlite",
+        tag3: "SQLite",
       },
       {
         id: 3,
@@ -59,7 +59,7 @@ export default function Projects() {
         name: "Manster Employment System",
         tag1: "Flask",
         tag2: "Bootstrap",
-        tag3: "MySQL",
+        tag3: "SQLite",
       },
       {
         id: 8,
