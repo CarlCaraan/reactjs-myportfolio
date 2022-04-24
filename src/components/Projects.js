@@ -7,6 +7,22 @@ export default function Projects() {
     items: [
       {
         id: 1,
+        src: "../../assets/images/projects/project8.jpg",
+        name: "SB Information System",
+        tag1: "Php",
+        tag2: "Bootstrap",
+        tag3: "MySQL",
+      },
+      {
+        id: 2,
+        src: "../../assets/images/projects/project9.jpg",
+        name: "Water Management System",
+        tag1: "Flask",
+        tag2: "Bootstrap",
+        tag3: "SQLlite",
+      },
+      {
+        id: 3,
         src: "../../assets/images/projects/project1.png",
         name: "Twitbook - Social Media App",
         tag1: "Javascript",
@@ -14,7 +30,7 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 2,
+        id: 4,
         src: "../../assets/images/projects/project2.png",
         name: "Business Permit Registration",
         tag1: "Javascript",
@@ -22,7 +38,7 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 3,
+        id: 5,
         src: "../../assets/images/projects/project4.png",
         name: "CNM - Online News Portal",
         tag1: "Laravel",
@@ -30,7 +46,7 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 4,
+        id: 6,
         src: "../../assets/images/projects/project5.png",
         name: "Content Management System",
         tag1: "Laravel",
@@ -38,15 +54,15 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 5,
+        id: 7,
         src: "../../assets/images/projects/project6.png",
         name: "Manster Employment System",
         tag1: "Flask",
-        tag2: "Python",
-        tag3: "SQL",
+        tag2: "Bootstrap",
+        tag3: "MySQL",
       },
       {
-        id: 6,
+        id: 8,
         src: "../../assets/images/projects/project3.png",
         name: "School Management System",
         tag1: "Laravel",
@@ -54,7 +70,7 @@ export default function Projects() {
         tag3: "Bootstrap",
       },
       {
-        id: 7,
+        id: 9,
         src: "../../assets/images/projects/project7.png",
         name: "Lazapee ECommerce Website",
         tag1: "ReactJs",
