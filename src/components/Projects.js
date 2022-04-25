@@ -24,7 +24,7 @@ export default function Projects() {
       {
         id: 3,
         src: "../../assets/images/projects/project1.png",
-        name: "Twitbook - Social Media App",
+        name: "Social Media App",
         tag1: "Javascript",
         tag2: "Php",
         tag3: "Bootstrap",
@@ -40,7 +40,7 @@ export default function Projects() {
       {
         id: 5,
         src: "../../assets/images/projects/project4.png",
-        name: "CNM - Online News Portal",
+        name: "Online News Portal",
         tag1: "Laravel",
         tag2: "MySQL",
         tag3: "Bootstrap",
@@ -56,7 +56,7 @@ export default function Projects() {
       {
         id: 7,
         src: "../../assets/images/projects/project6.png",
-        name: "Manster Employment System",
+        name: "Online Employment System",
         tag1: "Flask",
         tag2: "Bootstrap",
         tag3: "SQLite",
