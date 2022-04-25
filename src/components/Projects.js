@@ -16,7 +16,7 @@ export default function Projects() {
       {
         id: 2,
         src: "../../assets/images/projects/project9.jpg",
-        name: "Water Management System",
+        name: "Booking Management System",
         tag1: "Flask",
         tag2: "Bootstrap",
         tag3: "SQLite",
