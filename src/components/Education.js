@@ -1,4 +1,4 @@
-import React, { Component,Fragment } from "react";
+import React, { Component, Fragment } from "react";
 import Carousel from "react-elastic-carousel";
 import classes from "./Education.module.css";
 
@@ -7,7 +7,7 @@ export default function Education() {
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2 },
     { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 }
+    { width: 1200, itemsToShow: 4 },
   ];
   const state = {
     items: [
@@ -20,7 +20,6 @@ export default function Education() {
       { id: 7, src: "../../assets/images/certificates/cert7.jpg" },
       { id: 8, src: "../../assets/images/certificates/cert8.png" },
       { id: 9, src: "../../assets/images/certificates/cert9.jpg" },
-
     ],
   };
   const { items } = state;
@@ -30,6 +29,7 @@ export default function Education() {
         <div className="d-flex flex-column">
           {/* Start Timeline */}
           <h4 className={`${classes["resume-title"]}`}>Timeline</h4>
+          <p>Educational Background.</p>
           <div
             className={`${classes["education-one"]} my-3 justify-content-between d-flex flex-row`}
           >
@@ -104,7 +104,9 @@ export default function Education() {
           <p>Earned from different online courses out there.</p>
           <br />
           <Carousel breakPoints={breakPoints}>
-            {items.map(item => <img height="215px" src={item.src} key={item.id}/>)}
+            {items.map((item) => (
+              <img height="215px" src={item.src} key={item.id} />
+            ))}
           </Carousel>
         </div>
       </div>
