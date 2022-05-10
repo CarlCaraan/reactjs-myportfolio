@@ -1,14 +1,84 @@
-import React, { Component, Fragment } from "react";
-import Carousel from "react-elastic-carousel";
+import React, { Fragment } from "react";
+// import Carousel from "react-elastic-carousel";
+import Slider from "react-slick";
 import classes from "./Education.module.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "#8e44ad",
+        borderRadius: "50%",
+        paddingTop: "1px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "#8e44ad",
+        borderRadius: "50%",
+        paddingTop: "1px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
 
 export default function Education() {
-  const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
-  ];
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    autoplay: true,
+    pauseOnHover: true,
+    focusOnSelect: true,
+    speed: 500,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   const state = {
     items: [
       { id: 1, src: "../../assets/images/certificates/cert1.jpg" },
@@ -103,11 +173,12 @@ export default function Education() {
           <h4 className={`${classes["resume-title"]}`}>Certifications</h4>
           <p>Earned from different online courses out there.</p>
           <br />
-          <Carousel breakPoints={breakPoints}>
+          <Slider {...settings}>
             {items.map((item) => (
-              <img height="215px" src={item.src} key={item.id} />
+              <img src={item.src} key={item.id} />
             ))}
-          </Carousel>
+          </Slider>
+          {/* End Certifications */}
         </div>
       </div>
     </Fragment>
