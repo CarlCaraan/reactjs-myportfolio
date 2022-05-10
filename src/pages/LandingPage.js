@@ -208,10 +208,10 @@ const LandingPage = () => {
                 <div className="some-text-about-me">
                   A 22-year-old <strong>Full Stack Web Developer</strong> based
                   in Laguna, Philippines with background knowledge mostly in
-                  React and Laravel. Skilled in Front End technologies such as
-                  Html, CSS, Javascript, Bootstrap and Sass, and Back End
-                  technologies such as Php, Python, NodeJs, and MySQL. Learning
-                  a variety of scripting languages and APIs is one of my
+                  React and Laravel. Skilled in Frontend technologies such as
+                  Html, CSS, Javascript, Bootstrap, and Backend technologies
+                  such as Php, Python, NodeJs, and MySQL. Learning a variety of
+                  scripting languages and technology stacks is one of my
                   strengths. I am also a hard worker and a team player. I am
                   looking for a challenging opportunity that will enable me to
                   use my skills and abilities to achieve a challenging goal.
