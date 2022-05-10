@@ -47,7 +47,6 @@ export default function Education() {
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    pauseOnHover: true,
     focusOnSelect: true,
     speed: 500,
     nextArrow: <SampleNextArrow />,
