@@ -77,6 +77,22 @@ export default function Projects() {
         tag2: "Laravel",
         tag3: "RestAPI",
       },
+      {
+        id: 10,
+        src: "../../assets/images/projects/project10.png",
+        name: "Loaning Management System",
+        tag1: "Php",
+        tag2: "MySQL",
+        tag3: "Bootstrap",
+      },
+      {
+        id: 11,
+        src: "../../assets/images/projects/project11.png",
+        name: "School Information System",
+        tag1: "Php",
+        tag2: "MySQL",
+        tag3: "Bootstrap",
+      },
     ],
   };
   const { items } = state;
