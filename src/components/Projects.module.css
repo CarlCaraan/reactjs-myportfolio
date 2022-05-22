@@ -1,25 +1,36 @@
-.resume-title{
+.resume-title {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: var(--purple-color);
   letter-spacing: 2px;
 }
-.project-tags{
-    border-radius: 5px;
-    border: 1px solid var(--purple-color);
-    color: var(--purple-color);
-    font-family: "Raleway", sans-serif;
-    align-items: center;
-    padding-block: 2.5px;
-    margin-inline: 2px;
-    font-size: .9rem;
-    margin-top: 8px;
-    width: 100%;
+.project-tags {
+  border-radius: 5px;
+  border: 1px solid var(--purple-color);
+  color: var(--purple-color);
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  padding-block: 2.5px;
+  margin-inline: 2px;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  width: 100%;
 }
 .img-custom {
   cursor: pointer;
 }
 .img-custom:hover {
   background-color: var(--purple-color);
+}
+.project-link-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: var(--purple-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+.project-link-heading:hover {
+  color: var(--purple-color);
 }
