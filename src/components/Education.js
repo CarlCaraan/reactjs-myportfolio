@@ -156,7 +156,8 @@ export default function Education() {
           <ul>
             <li>
               <span className={`${classes["accreditation-list"]}`}>
-                College Dean's Lister since 1st year.
+                College Dean's Lister 2nd year (1st Sem, 2nd Sem). 3rd year (1st
+                Sem).
               </span>
             </li>
             <li>
