@@ -104,6 +104,15 @@ export default function Projects() {
         tag2: "MySQL",
         tag3: "Bootstrap",
       },
+      {
+        id: 12,
+        src: "../../assets/images/projects/project12.png",
+        href: "../../assets/downloads/project12.pdf",
+        name: "Gym Reservation System",
+        tag1: "Laravel",
+        tag2: "MySQL",
+        tag3: "Bootstrap",
+      },
     ],
   };
   const { items } = state;
