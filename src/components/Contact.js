@@ -75,11 +75,11 @@ export default function Contact() {
           <div className="data-animation" data-aos="fade-up">
             <div className="row">
               <div className="col-lg-4">
-                <div className={`${classes["coffee-wrapper"]} container text-center`}>
+                <div
+                  className={`${classes["coffee-wrapper"]} container text-center`}
+                >
                   <CoffeeLottie />
-                  <span
-                    className={`${classes["coffee-heading"]}`}
-                  >
+                  <span className={`${classes["coffee-heading"]}`}>
                     Buy me a Coffee.
                   </span>
                 </div>
@@ -150,7 +150,11 @@ export default function Contact() {
                 />
                 <br />
                 <br />
-                {error && <small className="float-end" title="error.title">{error.title}</small>}
+                {error && (
+                  <small className="float-end" title="error.title">
+                    {error.title}
+                  </small>
+                )}
               </div>
             </div>
           </div>

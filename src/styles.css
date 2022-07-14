@@ -328,10 +328,10 @@ ion-icon {
 
 /* ========= CONTACT SECTION ========= */
 .contact-me-part {
-  background: #bdc3c7;
+  background: #f1f1f1;
 }
 .contact-wrapper {
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 8rem;
 }
 /* ========= FOOTER SECTION ========= */
@@ -368,6 +368,20 @@ ion-icon {
 
 /* Devices under 768px (md) */
 @media (max-width: 767px) {
+  .footer-mobile {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: none !important;
+  }
+  .footer-icon-wrapper {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: none !important;
+    margin-top: -2rem;
+  }
 }
 
 /* Devices under 576px (sm) */

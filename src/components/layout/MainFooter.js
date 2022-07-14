@@ -4,41 +4,54 @@ import ScrollToTop from "react-scroll-to-top";
 const MainFooter = () => {
   return (
     <Fragment>
-      <footer>
-        <div className="bg-dark pt-5 pb-4 text-center">
-          <span className="brand-name text-white">
-            Dev_Caraan <i className="fas fa-code fa-sm"></i>
-          </span>
-          <p className="text-white mt-3 col-xxl-4 col-xl-6 col-lg-8 col-md-8 col-sm-12 px-2 mx-auto">
-            My name is Carl Aaron Caraan lived in Laguna, Philippines. A
-            passionate coder currently pursuing a Bachelor of Science in
-            Information Technology.
-          </p>
-          <small className="text-white">
-            Powered by <i className="fab fa-react"></i> ReactJs.
-          </small>
-
-          <div className="mt-3" data-aos="flip-down">
-            <a href="https://github.com/CarlCaraan" target="_blank">
-              <i className="fab fa-github fa-2x custom-icons"></i>
-            </a>
-            <a
-              href="https://steamcommunity.com/id/MySteamProfileLink/"
-              target="_blank"
-            >
-              <i className="fab fa-steam fa-2x ms-2 custom-icons"></i>
-            </a>
-            <a href="https://www.facebook.com/caraancarl/" target="_blank">
-              <i className="fab fa-facebook fa-2x ms-2 custom-icons"></i>
-            </a>
+      <section className="bg-dark pt-5 pb-4">
+        <footer className="container">
+          <div className="row">
+            <div className="col-md-8">
+              <span className="brand-name text-white footer-mobile">
+                Dev_Caraan <i className="fas fa-code fa-sm"></i>
+              </span>
+              <p className="text-white mt-3 footer-mobile">
+                <i>
+                  "A passionate coder currently pursuing a Bachelor of Science
+                  in Information Technology."
+                </i>
+              </p>
+            </div>
+            <div className="col-md-4">
+              <small className="text-white float-end mt-3 footer-mobile">
+                Powered by <i className="fab fa-react"></i> ReactJs.
+              </small>
+              <br />
+              <br />
+              <div
+                className="float-end footer-icon-wrapper"
+                data-aos="flip-down"
+              >
+                <a href="https://github.com/CarlCaraan" target="_blank">
+                  <i className="fab fa-github fa-2x custom-icons"></i>
+                </a>
+                <a
+                  href="https://steamcommunity.com/id/MySteamProfileLink/"
+                  target="_blank"
+                >
+                  <i className="fab fa-steam fa-2x ms-2 custom-icons"></i>
+                </a>
+                <a href="https://www.facebook.com/caraancarl/" target="_blank">
+                  <i className="fab fa-facebook fa-2x ms-2 custom-icons"></i>
+                </a>
+              </div>
+            </div>
           </div>
           <br />
-          <small className="text-white">
-            © 2022 Carl Caraan. All Rights Reserved.
-          </small>
-        </div>
-        <ScrollToTop smooth color="#8e44ad" top="300" />
-      </footer>
+          <div className="text-center w-100">
+            <small className="text-white">
+              Carl Caraan &copy; 2022. All Rights Reserved.
+            </small>
+          </div>
+        </footer>
+      </section>
+      <ScrollToTop smooth color="#8e44ad" top="300" />
     </Fragment>
   );
 };
