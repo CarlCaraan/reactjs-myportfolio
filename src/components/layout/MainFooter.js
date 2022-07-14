@@ -46,7 +46,7 @@ const MainFooter = () => {
           <br />
           <div className="text-center w-100">
             <small className="text-white">
-              Carl Caraan &copy; 2022. All Rights Reserved.
+              Copyright &copy; 2022 Carl Caraan . All Rights Reserved.
             </small>
           </div>
         </footer>
