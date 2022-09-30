@@ -55,7 +55,7 @@ const LandingPage = () => {
       {/* ========= Start Hero Section ========= */}
       <section className="herosection py-2">
         <div className="herosection-body row justify-content-center">
-          <div className="col-lg-4 col-sm-12">
+          <div className="col-xl-4 col-lg-12 col-md-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <span className="Im-text">
                 Hello, I'm
@@ -92,7 +92,7 @@ const LandingPage = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-12">
+          <div className="col-xl-4 col-lg-12 col-md-12">
             <div className="d-flex justify-content-center text-center pt-5">
               <img
                 className="img-fluid custom-avatar shadow-sm img-thumbnail"
@@ -102,7 +102,7 @@ const LandingPage = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-12 disable-mobile">
+          <div className="col-xl-4 col-lg-12 col-md-12 disable-mobile">
             <div className="d-flex justify-content-center">
               <ReactLottie />
             </div>
@@ -266,7 +266,7 @@ const LandingPage = () => {
           data-aos="fade-up"
           style={{ marginInline: "auto" }}
         >
-          <div className="col-lg-4 col-md-4 resume-left-section d-flex flex-row shadow-sm">
+          <div className="col-xl-4 col-lg-5 col-md-12 resume-left-section d-flex flex-row shadow-sm">
             <div className="d-flex flex-column bg-new">
               <span className="icons-span">
                 <i className="fas fa-user-graduate"></i>
@@ -334,7 +334,7 @@ const LandingPage = () => {
             </div>
           </div>
 
-          <div className="col-lg-8 col-md-8 resume-right-section shadow-sm">
+          <div className="col-xl-8 col-lg-7 col-md-12 resume-right-section shadow-sm">
             {education === true && <Education />}
             {workhistory === true && <Work />}
             {programming === true && <Programming />}
