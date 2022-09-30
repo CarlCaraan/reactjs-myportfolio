@@ -211,6 +211,7 @@ a.top-scroll:hover {
 
 .about-me-section {
   background: var(--primary-app-color);
+  margin-top: -1px;
 }
 .section-heading {
   font-family: "Poppins", sans-serif;
