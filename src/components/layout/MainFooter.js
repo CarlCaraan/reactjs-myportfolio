@@ -13,8 +13,9 @@ const MainFooter = () => {
               </span>
               <p className="text-white mt-3 footer-mobile">
                 <i>
-                  "A passionate coder currently pursuing a Bachelor of Science
-                  in Information Technology."
+                  "Empty your mind. Be formless, shapeless — like water. You put
+                  water into a cup, it becomes the cup. You put water into a
+                  bottle, it becomes the bottle." -Bruce Lee
                 </i>
               </p>
             </div>
