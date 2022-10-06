@@ -71,7 +71,7 @@ const LandingPage = () => {
                 <div className="row">
                   <div className="col-sm-6">
                     <Link
-                      className="btn btn-outline-success w-100 mb-2 herosection-button"
+                      className="btn w-100 mb-2 herosection-button"
                       to="contact"
                       offset={50}
                     >
@@ -81,7 +81,7 @@ const LandingPage = () => {
                   <div className="col-sm-6">
                     <a
                       href="../assets/downloads/CarlCaraan.pdf"
-                      className="btn btn-outline-success w-100 herosection-button"
+                      className="btn w-100 herosection-button"
                       target="_blank"
                     >
                       <span className="px-5">Resume</span>
