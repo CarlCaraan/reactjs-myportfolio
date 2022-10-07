@@ -22,6 +22,8 @@ const LandingPage = () => {
   const [programming, setProgramming] = useState(false);
   const [projects, setProjects] = useState(false);
 
+  var age = new Date().getFullYear().toString().slice(-2);
+
   function SetAllFalse() {
     setEducation(false);
     setWorkHistory(false);
@@ -206,15 +208,16 @@ const LandingPage = () => {
             <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column py-5">
               <div className="container aboutme-right-section">
                 <div className="some-text-about-me">
-                  A 22-year-old <strong>Full Stack Web Developer</strong> based
-                  in Laguna, Philippines with background knowledge mostly in
-                  React and Laravel. Skilled in Frontend technologies such as
-                  Html, CSS, Javascript, Bootstrap, and Backend technologies
-                  such as Php, Python, NodeJs, and MySQL. Learning a variety of
-                  scripting languages and technology stacks is one of my
-                  strengths. I am also a hard worker and a team player. I am
-                  looking for a challenging opportunity that will enable me to
-                  use my skills and abilities to achieve a challenging goal.
+                  &nbsp; A {age}-year-old{" "}
+                  <strong>Full Stack Web Developer</strong> based in Laguna,
+                  Philippines with background knowledge mostly in React and
+                  Laravel. Skilled in Frontend technologies such as Html, CSS,
+                  Javascript, Bootstrap, and Backend technologies such as Php,
+                  Python, NodeJs, and MySQL. Learning a variety of scripting
+                  languages and technology stacks is one of my strengths. I am
+                  also a hard worker and a team player. I am looking for a
+                  challenging opportunity that will enable me to use my skills
+                  and abilities to achieve a challenging goal.
                 </div>
 
                 <div className="few-highlights mt-3">

@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import ScrollToTop from "react-scroll-to-top";
 
 const MainFooter = () => {
+  var date = new Date().getFullYear();
   return (
     <Fragment>
       <section className="bg-dark pt-5 pb-4">
@@ -47,7 +48,7 @@ const MainFooter = () => {
           <br />
           <div className="text-center w-100">
             <small className="text-white">
-              Copyright &copy; 2022 Carl Caraan . All Rights Reserved.
+              Copyright &copy; {date} Carl Caraan . All Rights Reserved.
             </small>
           </div>
         </footer>
