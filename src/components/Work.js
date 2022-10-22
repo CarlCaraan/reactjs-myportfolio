@@ -8,8 +8,8 @@ export default function Work() {
         <div className="d-flex flex-column">
           <h4 className={`${classes["resume-title"]}`}>Career Objective</h4>
           <p>
-            Interested in the role of a Software Engineer where I can contribute
-            my analytical skills and knowledge acquired by pursuing my degree in
+            Interested in the role of a Web Developer where I can contribute my
+            analytical skills and knowledge acquired by pursuing my degree in
             Information Technology. Looking for a dynamic and progressive
             company where my skills are utilized in the maximum way possible.
           </p>
@@ -28,13 +28,13 @@ export default function Work() {
               <ul>
                 <li>
                   <span className={`${classes["work-list"]}`}>
-                    Created a Business Permit Registration made in Core PHP
+                    Worked with local and Foreign Clients
                   </span>
                 </li>
               </ul>
             </div>
             <span className={`${classes["year-passedout"]} badge bg-secondary`}>
-              2020 - Present
+              2022 - Present
             </span>
           </div>
         </div>
