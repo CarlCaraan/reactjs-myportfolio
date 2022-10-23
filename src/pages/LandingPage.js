@@ -81,7 +81,7 @@ const LandingPage = () => {
                   </div>
                   <div className="col-sm-6">
                     <a
-                      href="../assets/downloads/CarlCaraan.pdf"
+                      href="../assets/downloads/caraan_resume.pdf"
                       className="btn w-100 herosection-button"
                       target="_blank"
                     >
